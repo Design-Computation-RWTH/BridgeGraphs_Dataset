@@ -1,7 +1,7 @@
 # BridgeGraphs_Dataset
 RDF Graphs of Bridge Managements System data 
-Part of the Raumlink Project
-For more information see: https://dc.rwth-aachen.de/en/raumlink-2/
+- Part of the Raumlink Project
+- For more information see: https://dc.rwth-aachen.de/en/raumlink-2/
 
 ### For Use Case 2 (UC2) we provide
   - the RDF Graph converted directly from the BMS (SIB-Bauwerke) data
