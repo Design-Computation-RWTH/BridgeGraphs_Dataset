@@ -1,0 +1,3446 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+@prefix bot: <https://w3id.org/bot#> .
+@prefix brcomp: <https://w3id.org/brcomp#> .
+@prefix brot: <https://w3id.org/brot#> .
+@prefix brstr: <https://w3id.org/brstr#> .
+@prefix dot: <https://w3id.org/dot#> .
+@prefix geom: <http://rdf.bg/geometry.ttl#> .
+@prefix gom: <https://w3id.org/gom#> .
+@prefix ex: <http://example.org/exampleNS#> .
+
+@prefix reloc: <https://w3id.org/reloc#> .
+@prefix sib: <http://example.org/sibbw0000000#> .
+@prefix ins: <http://example.org/sibbw0000000/RelocBridgeModel#> .
+
+ins:DamageArea_280M4N2S a dot:DamageArea ;
+    rdfs:label "DamageArea_280M4N2S" ;
+    ex:damageSize "small" ;
+    dot:hasInspectionDocumentation sib:280M4N2S .
+
+ins:DamageArea_DP19VYVZ a dot:DamageArea ;
+    rdfs:label "DamageArea_DP19VYVZ" ;
+    ex:damageSize "small" ;
+    rdfs:comment "Surface is on:verticalAxisRelation" ;
+    dot:hasInspectionDocumentation sib:DP19VYVZ .
+
+ins:DamageArea_NJ0MOT2S a dot:DamageArea ;
+    rdfs:label "DamageArea_NJ0MOT2S" ;
+    ex:damageSize "small" ;
+    dot:hasInspectionDocumentation sib:NJ0MOT2S .
+
+ins:DamageArea_NJ0OFOF0 a dot:DamageArea ;
+    rdfs:label "DamageArea_NJ0OFOF0" ;
+    ex:damageSize "medium" ;
+    rdfs:comment "Surface is on:verticalAxisRelation" ;
+    dot:hasInspectionDocumentation sib:NJ0OFOF0 .
+
+ins:DamageArea_NY0LREJE a dot:DamageArea ;
+    rdfs:label "DamageArea_NY0LREJE" ;
+    ex:damageSize "medium" ;
+    dot:hasInspectionDocumentation sib:NY0LREJE .
+
+ins:DamageArea_NY0ME1AH a dot:DamageArea ;
+    rdfs:label "DamageArea_NY0ME1AH" ;
+    ex:damageSize "medium" ;
+    dot:hasInspectionDocumentation sib:NY0ME1AH .
+
+ins:DamageArea_NY0MHN2M a dot:DamageArea ;
+    rdfs:label "DamageArea_NY0MHN2M" ;
+    ex:damageSize "small" ;
+    dot:hasInspectionDocumentation sib:NY0MHN2M .
+
+ins:DamageArea_NY0MJ8FH a dot:DamageArea ;
+    rdfs:label "DamageArea_NY0MJ8FH" ;
+    ex:damageSize "small" ;
+    dot:hasInspectionDocumentation sib:NY0MJ8FH .
+
+ins:DamageArea_RE0VGR6R a dot:DamageArea ;
+    rdfs:label "DamageArea_RE0VGR6R" ;
+    ex:damageSize "medium" ;
+    rdfs:comment "Surface is on:verticalAxisRelation" ;
+    dot:hasInspectionDocumentation sib:RE0VGR6R .
+
+ins:DamageArea_RE0WE801 a dot:DamageArea ;
+    rdfs:label "DamageArea_RE0WE801" ;
+    ex:damageSize "medium" ;
+    dot:hasInspectionDocumentation sib:RE0WE801 .
+
+ins:DamageArea_RE0WGFHR a dot:DamageArea ;
+    rdfs:label "DamageArea_RE0WGFHR" ;
+    ex:damageSize "small" ;
+    dot:hasInspectionDocumentation sib:RE0WGFHR .
+
+ins:DamageArea_VC0O70JU a dot:DamageArea ;
+    rdfs:label "DamageArea_VC0O70JU" ;
+    ex:damageSize "medium" ;
+    rdfs:comment "Surface is on:verticalAxisRelation" ;
+    dot:hasInspectionDocumentation sib:VC0O70JU .
+
+ins:DamageArea_VC0OHQDC a dot:DamageArea ;
+    rdfs:label "DamageArea_VC0OHQDC" ;
+    ex:damageSize "small" ;
+    dot:hasInspectionDocumentation sib:VC0OHQDC .
+
+ins:DamageArea_VC0T8CXU a dot:DamageArea ;
+    rdfs:label "DamageArea_VC0T8CXU" ;
+    ex:damageSize "medium" ;
+    dot:hasInspectionDocumentation sib:VC0T8CXU .
+
+ins:DamageArea_VC0XUQNK a dot:DamageArea ;
+    rdfs:label "DamageArea_VC0XUQNK" ;
+    ex:damageSize "small" ;
+    dot:hasInspectionDocumentation sib:VC0XUQNK .
+
+ins:DamageArea_ZD0J0Y23 a dot:DamageArea ;
+    rdfs:label "DamageArea_ZD0J0Y23" ;
+    ex:damageSize "small" ;
+    dot:hasInspectionDocumentation sib:ZD0J0Y23 .
+
+ins:Substructure_Zone brot:containsComponent ins:AbutmentWingWall_Span_2_right,
+        ins:Abutment_Span_0,
+        ins:Abutment_Span_2,
+        ins:Footing_Span_0,
+        ins:Footing_Span_1,
+        ins:Footing_Span_2,
+        ins:Pier_Span_1,
+        ins:Pier_Span_1_1_left,
+        ins:Pier_Span_1_2_left .
+
+ins:Superstructure_Zone brot:containsComponent ins:Cap_left,
+        ins:Cap_right,
+        ins:Coating,
+        ins:Girder,
+        ins:GirderCrossGirder_Span_1,
+        ins:GirderDeck,
+        ins:GirderMainGirder_Span_1_1_right,
+        ins:GirderMainGirder_Span_1_2_right,
+        ins:GirderMainGirder_Span_1_3_right,
+        ins:GirderMainGirder_Span_1_4_right,
+        ins:GirderMainGirder_Span_2_1_right,
+        ins:GirderMainGirder_Span_2_2_right,
+        ins:GirderMainGirder_Span_2_3_right,
+        ins:GirderMainGirder_Span_2_4_right,
+        ins:Joint_front,
+        ins:Joint_rear,
+        ins:Railing_left,
+        ins:Railing_right,
+        ins:SafetyKerb_left,
+        ins:SafetyKerb_right,
+        ins:TrafficBarrier_left,
+        ins:TrafficBarrier_right .
+
+ins:DamageArea_1Y0Z319E a dot:DamageArea ;
+    rdfs:label "DamageArea_1Y0Z319E" ;
+    ex:damageSize "small" ;
+    bot:has3DModel ins:N_5940341_BB ;
+    dot:hasInspectionDocumentation sib:1Y0Z319E .
+
+ins:DamageArea_1Y0ZMKFB a dot:DamageArea ;
+    rdfs:label "DamageArea_1Y0ZMKFB" ;
+    ex:damageSize "small" ;
+    bot:has3DModel ins:N_8825848_BB ;
+    dot:hasInspectionDocumentation sib:1Y0ZMKFB ;
+    reloc:containedInFront ins:GirderDeck .
+
+ins:DamageArea_1Y0ZUGRJ a dot:DamageArea ;
+    rdfs:label "DamageArea_1Y0ZUGRJ" ;
+    ex:damageSize "small" ;
+    rdfs:comment "Surface is on:transversalAxisRelation" ;
+    bot:has3DModel ins:N_2216759_BB ;
+    dot:hasInspectionDocumentation sib:1Y0ZUGRJ ;
+    reloc:containedInFront ins:Bridge .
+
+ins:DamageArea_280M4N2M a dot:DamageArea ;
+    rdfs:label "DamageArea_280M4N2M" ;
+    ex:damageSize "medium" ;
+    bot:has3DModel ins:N_6925170_BB ;
+    dot:hasInspectionDocumentation sib:280M4N2M .
+
+ins:DamageArea_280M4N2M_2 a dot:DamageArea ;
+    rdfs:label "DamageArea_280M4N2M_2" ;
+    ex:damageSize "medium" ;
+    bot:has3DModel ins:N_9522325_BB ;
+    dot:hasInspectionDocumentation sib:280M4N2M .
+
+ins:DamageArea_280M4N2N a dot:DamageArea ;
+    rdfs:label "DamageArea_280M4N2N" ;
+    ex:damageSize "small" ;
+    bot:has3DModel ins:N_6063484_BB ;
+    dot:hasInspectionDocumentation sib:280M4N2N .
+
+ins:DamageArea_280M4N2O a dot:DamageArea ;
+    rdfs:label "DamageArea_280M4N2O" ;
+    ex:damageSize "small" ;
+    rdfs:comment "Surface is on:verticalAxisRelation" ;
+    bot:has3DModel ins:N_7462006_BB ;
+    dot:hasInspectionDocumentation sib:280M4N2O ;
+    reloc:containedInFront ins:Bridge ;
+    reloc:containedInRight ins:Coating ;
+    reloc:containedInTop ins:Coating .
+
+ins:DamageArea_280M4N2P a dot:DamageArea ;
+    rdfs:label "DamageArea_280M4N2P" ;
+    ex:damageSize "small" ;
+    bot:has3DModel ins:N_7176569_BB ;
+    dot:hasInspectionDocumentation sib:280M4N2P .
+
+ins:DamageArea_280M4N2Q a dot:DamageArea ;
+    rdfs:label "DamageArea_280M4N2Q" ;
+    ex:damageSize "small" ;
+    bot:has3DModel ins:N_8090978_BB ;
+    dot:hasInspectionDocumentation sib:280M4N2Q ;
+    reloc:containedInFront ins:GirderDeck .
+
+ins:DamageArea_280M4N2R a dot:DamageArea ;
+    rdfs:label "DamageArea_280M4N2R" ;
+    ex:damageSize "small" ;
+    rdfs:comment "Surface is on:transversalAxisRelation" ;
+    bot:has3DModel ins:N_7052929_BB ;
+    dot:hasInspectionDocumentation sib:280M4N2R ;
+    reloc:containedInFront ins:Bridge .
+
+ins:DamageArea_DP19VYVY a dot:DamageArea ;
+    rdfs:label "DamageArea_DP19VYVY" ;
+    ex:damageSize "medium" ;
+    bot:has3DModel ins:N_7521986_BB ;
+    dot:hasInspectionDocumentation sib:DP19VYVY .
+
+ins:DamageArea_DP19VYVY_2 a dot:DamageArea ;
+    rdfs:label "DamageArea_DP19VYVY_2" ;
+    ex:damageSize "medium" ;
+    bot:has3DModel ins:N_6836312_BB ;
+    dot:hasInspectionDocumentation sib:DP19VYVY .
+
+ins:DamageArea_DP19VYW0 a dot:DamageArea ;
+    rdfs:label "DamageArea_DP19VYW0" ;
+    ex:damageSize "small" ;
+    bot:has3DModel ins:N_3771856_BB ;
+    dot:hasInspectionDocumentation sib:DP19VYW0 ;
+    reloc:intersectBottom ins:GirderDeck .
+
+ins:DamageArea_NJ0IBHTY a dot:DamageArea ;
+    rdfs:label "DamageArea_NJ0IBHTY" ;
+    ex:damageSize "small" ;
+    rdfs:comment "Surface is on:transversalAxisRelation" ;
+    bot:has3DModel ins:N_7912505_BB ;
+    dot:hasInspectionDocumentation sib:NJ0IBHTY ;
+    reloc:containedInRight ins:GirderMainGirder_Span_1_1_right .
+
+ins:DamageArea_NJ0IM4M7 a dot:DamageArea ;
+    rdfs:label "DamageArea_NJ0IM4M7" ;
+    ex:damageSize "large" ;
+    bot:has3DModel ins:N_3231068_BB ;
+    dot:hasInspectionDocumentation sib:NJ0IM4M7 .
+
+ins:DamageArea_NJ0JTSH5 a dot:DamageArea ;
+    rdfs:label "DamageArea_NJ0JTSH5" ;
+    ex:damageSize "small" ;
+    bot:has3DModel ins:N_5184909_BB ;
+    dot:hasInspectionDocumentation sib:NJ0JTSH5 ;
+    reloc:containedInBottom ins:Abutment_Span_0 ;
+    reloc:containedInLeft ins:Abutment_Span_0 .
+
+ins:DamageArea_NJ0LGWMH a dot:DamageArea ;
+    rdfs:label "DamageArea_NJ0LGWMH" ;
+    ex:damageSize "medium" ;
+    bot:has3DModel ins:N_6078154_BB ;
+    dot:hasInspectionDocumentation sib:NJ0LGWMH .
+
+ins:DamageArea_NJ0LGWMH_2 a dot:DamageArea ;
+    rdfs:label "DamageArea_NJ0LGWMH_2" ;
+    ex:damageSize "medium" ;
+    bot:has3DModel ins:N_2574012_BB ;
+    dot:hasInspectionDocumentation sib:NJ0LGWMH .
+
+ins:DamageArea_NJ0LOAVL a dot:DamageArea ;
+    rdfs:label "DamageArea_NJ0LOAVL" ;
+    ex:damageSize "medium" ;
+    rdfs:comment "Surface is on:verticalAxisRelation" ;
+    bot:has3DModel ins:N_3413982_BB ;
+    dot:hasInspectionDocumentation sib:NJ0LOAVL .
+
+ins:DamageArea_NJ0LOAVL_2 a dot:DamageArea ;
+    rdfs:label "DamageArea_NJ0LOAVL_2" ;
+    ex:damageSize "medium" ;
+    rdfs:comment "Surface is on:verticalAxisRelation" ;
+    bot:has3DModel ins:N_9585103_BB ;
+    dot:hasInspectionDocumentation sib:NJ0LOAVL .
+
+ins:DamageArea_NJ0MEETK a dot:DamageArea ;
+    rdfs:label "DamageArea_NJ0MEETK" ;
+    ex:damageSize "medium" ;
+    rdfs:comment "Surface is on:verticalAxisRelation" ;
+    bot:has3DModel ins:N_6282067_BB ;
+    dot:hasInspectionDocumentation sib:NJ0MEETK ;
+    reloc:containedInBottom ins:TrafficBarrier_left ;
+    reloc:containedInTop ins:TrafficBarrier_left ;
+    reloc:meetTop ins:Girder .
+
+ins:DamageArea_NJ0MEETK_2 a dot:DamageArea ;
+    rdfs:label "DamageArea_NJ0MEETK_2" ;
+    ex:damageSize "medium" ;
+    rdfs:comment "Surface is on:verticalAxisRelation" ;
+    bot:has3DModel ins:N_4058515_BB ;
+    dot:hasInspectionDocumentation sib:NJ0MEETK ;
+    reloc:containedInBottom ins:TrafficBarrier_right ;
+    reloc:containedInTop ins:TrafficBarrier_right ;
+    reloc:meetTop ins:Girder .
+
+ins:DamageArea_NJ0MNT5A a dot:DamageArea ;
+    rdfs:label "DamageArea_NJ0MNT5A" ;
+    ex:damageSize "medium" ;
+    bot:has3DModel ins:N_5055896_BB ;
+    dot:hasInspectionDocumentation sib:NJ0MNT5A .
+
+ins:DamageArea_NJ0MQUYL a dot:DamageArea ;
+    rdfs:label "DamageArea_NJ0MQUYL" ;
+    ex:damageSize "medium" ;
+    rdfs:comment "Surface is on:verticalAxisRelation" ;
+    bot:has3DModel ins:N_5935059_BB ;
+    dot:hasInspectionDocumentation sib:NJ0MQUYL ;
+    reloc:containedInFront ins:Bridge ;
+    reloc:containedInTop ins:Coating .
+
+ins:DamageArea_NJ0MQUYL_3 a dot:DamageArea ;
+    rdfs:label "DamageArea_NJ0MQUYL_3" ;
+    ex:damageSize "medium" ;
+    rdfs:comment "Surface is on:verticalAxisRelation" ;
+    bot:has3DModel ins:N_4233090_BB ;
+    dot:hasInspectionDocumentation sib:NJ0MQUYL ;
+    reloc:containedInRear ins:Bridge ;
+    reloc:containedInTop ins:Coating .
+
+ins:DamageArea_NJ0N84W1 a dot:DamageArea ;
+    rdfs:label "DamageArea_NJ0N84W1" ;
+    ex:damageSize "small" ;
+    bot:has3DModel ins:N_7663706_BB ;
+    dot:hasInspectionDocumentation sib:NJ0N84W1 .
+
+ins:DamageArea_NJ0NRCTF a dot:DamageArea ;
+    rdfs:label "DamageArea_NJ0NRCTF" ;
+    ex:damageSize "small" ;
+    bot:has3DModel ins:N_5670897_BB ;
+    dot:hasInspectionDocumentation sib:NJ0NRCTF .
+
+ins:DamageArea_NJ0NRCTF_2 a dot:DamageArea ;
+    rdfs:label "DamageArea_NJ0NRCTF_2" ;
+    ex:damageSize "small" ;
+    bot:has3DModel ins:N_4171532_BB ;
+    dot:hasInspectionDocumentation sib:NJ0NRCTF .
+
+ins:DamageArea_NJ0NT9H5 a dot:DamageArea ;
+    rdfs:label "DamageArea_NJ0NT9H5" ;
+    ex:damageSize "medium" ;
+    rdfs:comment "Surface is on:transversalAxisRelation" ;
+    bot:has3DModel ins:N_7769137_BB ;
+    dot:hasInspectionDocumentation sib:NJ0NT9H5 ;
+    reloc:containedInRight ins:AbutmentWingWall_Span_2_right .
+
+ins:DamageArea_NJ0NV9I8 a dot:DamageArea ;
+    rdfs:label "DamageArea_NJ0NV9I8" ;
+    ex:damageLength "1.73"^^xsd:float ;
+    ex:damageSize "small" ;
+    ex:damageWidth "1.73"^^xsd:float ;
+    bot:has3DModel ins:N_4364308_BB ;
+    dot:hasInspectionDocumentation sib:NJ0NV9I8 ;
+    reloc:containedInBottom ins:Site ;
+    reloc:containedInFront ins:Bridge .
+
+ins:DamageArea_NJ0NWW9R a dot:DamageArea ;
+    rdfs:label "DamageArea_NJ0NWW9R" ;
+    ex:damageSize "small" ;
+    rdfs:comment "Surface is on:verticalAxisRelation" ;
+    bot:has3DModel ins:N_3892993_BB ;
+    dot:hasInspectionDocumentation sib:NJ0NWW9R ;
+    reloc:containedInRear ins:Cap_right ;
+    reloc:containedInTop ins:Cap_right .
+
+ins:DamageArea_NJ0NWW9R_2 a dot:DamageArea ;
+    rdfs:label "DamageArea_NJ0NWW9R_2" ;
+    ex:damageSize "small" ;
+    rdfs:comment "Surface is on:verticalAxisRelation" ;
+    bot:has3DModel ins:N_9982554_BB ;
+    dot:hasInspectionDocumentation sib:NJ0NWW9R ;
+    reloc:containedInRear ins:Cap_left ;
+    reloc:containedInTop ins:Cap_left .
+
+ins:DamageArea_NJ0NWW9R_2_3 a dot:DamageArea ;
+    rdfs:label "DamageArea_NJ0NWW9R_2_3" ;
+    ex:damageSize "small" ;
+    rdfs:comment "Surface is on:verticalAxisRelation" ;
+    bot:has3DModel ins:N_6749177_BB ;
+    dot:hasInspectionDocumentation sib:NJ0NWW9R ;
+    reloc:containedInFront ins:Cap_left ;
+    reloc:containedInTop ins:Cap_left .
+
+ins:DamageArea_NJ0NWW9R_3 a dot:DamageArea ;
+    rdfs:label "DamageArea_NJ0NWW9R_3" ;
+    ex:damageSize "small" ;
+    rdfs:comment "Surface is on:verticalAxisRelation" ;
+    bot:has3DModel ins:N_8342461_BB ;
+    dot:hasInspectionDocumentation sib:NJ0NWW9R ;
+    reloc:containedInFront ins:Cap_right ;
+    reloc:containedInTop ins:Cap_right .
+
+ins:DamageArea_NJ0OHUTB a dot:DamageArea ;
+    rdfs:label "DamageArea_NJ0OHUTB" ;
+    ex:damageSize "medium" ;
+    rdfs:comment "Surface is on:verticalAxisRelation" ;
+    bot:has3DModel ins:N_7525984_BB ;
+    dot:hasInspectionDocumentation sib:NJ0OHUTB ;
+    reloc:containedInTop ins:Cap_right .
+
+ins:DamageArea_NJ0OV159 a dot:DamageArea ;
+    rdfs:label "DamageArea_NJ0OV159" ;
+    ex:damageLength "0.5"^^xsd:float ;
+    ex:damageSize "small" ;
+    ex:damageWidth "0.5"^^xsd:float ;
+    bot:has3DModel ins:N_3036397_BB ;
+    dot:hasInspectionDocumentation sib:NJ0OV159 ;
+    reloc:containedInFront ins:Bridge ;
+    reloc:containedInTop ins:Railing_right ;
+    reloc:meetTop ins:Girder .
+
+ins:DamageArea_NJ0OXZBA a dot:DamageArea ;
+    rdfs:label "DamageArea_NJ0OXZBA" ;
+    ex:damageSize "medium" ;
+    rdfs:comment "Surface is on:verticalAxisRelation" ;
+    bot:has3DModel ins:N_1048936_BB ;
+    dot:hasInspectionDocumentation sib:NJ0OXZBA ;
+    reloc:containedInTop ins:Joint_rear ;
+    reloc:meetTop ins:Girder .
+
+ins:DamageArea_NJ0OXZBA_2 a dot:DamageArea ;
+    rdfs:label "DamageArea_NJ0OXZBA_2" ;
+    ex:damageSize "medium" ;
+    rdfs:comment "Surface is on:verticalAxisRelation" ;
+    bot:has3DModel ins:N_5680428_BB ;
+    dot:hasInspectionDocumentation sib:NJ0OXZBA ;
+    reloc:containedInTop ins:Joint_front ;
+    reloc:meetTop ins:Girder .
+
+ins:DamageArea_NJ0OZ4UP a dot:DamageArea ;
+    rdfs:label "DamageArea_NJ0OZ4UP" ;
+    ex:damageSize "medium" ;
+    rdfs:comment "Surface is on:verticalAxisRelation" ;
+    bot:has3DModel ins:N_2123130_BB ;
+    dot:hasInspectionDocumentation sib:NJ0OZ4UP ;
+    reloc:containedInTop ins:Joint_rear ;
+    reloc:meetTop ins:Girder .
+
+ins:DamageArea_NJ0OZ4UP_2 a dot:DamageArea ;
+    rdfs:label "DamageArea_NJ0OZ4UP_2" ;
+    ex:damageSize "medium" ;
+    rdfs:comment "Surface is on:verticalAxisRelation" ;
+    bot:has3DModel ins:N_7093999_BB ;
+    dot:hasInspectionDocumentation sib:NJ0OZ4UP ;
+    reloc:containedInTop ins:Joint_front ;
+    reloc:meetTop ins:Girder .
+
+ins:DamageArea_NJ0PUA7Q a dot:DamageArea ;
+    rdfs:label "DamageArea_NJ0PUA7Q" ;
+    ex:damageSize "small" ;
+    rdfs:comment "Surface is on:verticalAxisRelation" ;
+    bot:has3DModel ins:N_1604672_BB ;
+    dot:hasInspectionDocumentation sib:NJ0PUA7Q ;
+    reloc:containedInTop ins:Coating ;
+    reloc:containedInTransversalCenter ins:Coating .
+
+ins:DamageArea_NY0LO2H9 a dot:DamageArea ;
+    rdfs:label "DamageArea_NY0LO2H9" ;
+    ex:damageSize "small" ;
+    rdfs:comment "Surface is on:transversalAxisRelation" ;
+    bot:has3DModel ins:N_4983422_BB ;
+    dot:hasInspectionDocumentation sib:NY0LO2H9 ;
+    reloc:containedInRight ins:GirderMainGirder_Span_1_1_right .
+
+ins:DamageArea_NY0LOAKC a dot:DamageArea ;
+    rdfs:label "DamageArea_NY0LOAKC" ;
+    ex:damageLength "0.1"^^xsd:float ;
+    ex:damageSize "small" ;
+    ex:damageWidth "0.1"^^xsd:float ;
+    rdfs:comment "Surface is on:transversalAxisRelation" ;
+    bot:has3DModel ins:N_9633094_BB ;
+    dot:hasInspectionDocumentation sib:NY0LOAKC ;
+    reloc:containedInRight ins:GirderMainGirder_Span_1_2_right .
+
+ins:DamageArea_NY0LUVDD a dot:DamageArea ;
+    rdfs:label "DamageArea_NY0LUVDD" ;
+    ex:damageSize "medium" ;
+    bot:has3DModel ins:N_3302968_BB ;
+    dot:hasInspectionDocumentation sib:NY0LUVDD ;
+    reloc:containedInLongitudinalCenter ins:Bridge .
+
+ins:DamageArea_NY0LWS6G a dot:DamageArea ;
+    rdfs:label "DamageArea_NY0LWS6G" ;
+    ex:damageSize "large" ;
+    bot:has3DModel ins:N_6318942_BB ;
+    dot:hasInspectionDocumentation sib:NY0LWS6G .
+
+ins:DamageArea_NY0LXK3T a dot:DamageArea ;
+    rdfs:label "DamageArea_NY0LXK3T" ;
+    ex:damageSize "small" ;
+    bot:has3DModel ins:N_2493723_BB ;
+    dot:hasInspectionDocumentation sib:NY0LXK3T .
+
+ins:DamageArea_NY0LZ32M a dot:DamageArea ;
+    rdfs:label "DamageArea_NY0LZ32M" ;
+    ex:damageSize "small" ;
+    bot:has3DModel ins:N_7790083_BB ;
+    dot:hasInspectionDocumentation sib:NY0LZ32M ;
+    reloc:containedInBottom ins:Abutment_Span_0 ;
+    reloc:containedInLeft ins:Abutment_Span_0 .
+
+ins:DamageArea_NY0LZYSF a dot:DamageArea ;
+    rdfs:label "DamageArea_NY0LZYSF" ;
+    ex:damageSize "medium" ;
+    rdfs:comment "Surface is on:transversalAxisRelation" ;
+    bot:has3DModel ins:N_8929762_BB ;
+    dot:hasInspectionDocumentation sib:NY0LZYSF ;
+    reloc:containedInRight ins:AbutmentWingWall_Span_2_right .
+
+ins:DamageArea_NY0M62B9 a dot:DamageArea ;
+    rdfs:label "DamageArea_NY0M62B9" ;
+    ex:damageSize "medium" ;
+    bot:has3DModel ins:N_9286632_BB ;
+    dot:hasInspectionDocumentation sib:NY0M62B9 .
+
+ins:DamageArea_NY0M77CF a dot:DamageArea ;
+    rdfs:label "DamageArea_NY0M77CF" ;
+    ex:damageSize "small" ;
+    bot:has3DModel ins:N_7091139_BB ;
+    dot:hasInspectionDocumentation sib:NY0M77CF ;
+    reloc:containedInRear ins:Bridge .
+
+ins:DamageArea_NY0M9P1L a dot:DamageArea ;
+    rdfs:label "DamageArea_NY0M9P1L" ;
+    ex:damageSize "medium" ;
+    bot:has3DModel ins:N_6861952_BB ;
+    dot:hasInspectionDocumentation sib:NY0M9P1L .
+
+ins:DamageArea_NY0M9P1L_2 a dot:DamageArea ;
+    rdfs:label "DamageArea_NY0M9P1L_2" ;
+    ex:damageSize "medium" ;
+    bot:has3DModel ins:N_4494112_BB ;
+    dot:hasInspectionDocumentation sib:NY0M9P1L .
+
+ins:DamageArea_NY0MCCII a dot:DamageArea ;
+    rdfs:label "DamageArea_NY0MCCII" ;
+    ex:damageSize "small" ;
+    bot:has3DModel ins:N_3449977_BB ;
+    dot:hasInspectionDocumentation sib:NY0MCCII ;
+    reloc:containedInRear ins:Bridge .
+
+ins:DamageArea_NY0MEIYU a dot:DamageArea ;
+    rdfs:label "DamageArea_NY0MEIYU" ;
+    ex:damageSize "small" ;
+    rdfs:comment "Surface is on:verticalAxisRelation" ;
+    bot:has3DModel ins:N_2959945_BB ;
+    dot:hasInspectionDocumentation sib:NY0MEIYU ;
+    reloc:containedInRear ins:Cap_right ;
+    reloc:containedInTop ins:Cap_right .
+
+ins:DamageArea_NY0MEIYU_2 a dot:DamageArea ;
+    rdfs:label "DamageArea_NY0MEIYU_2" ;
+    ex:damageSize "small" ;
+    rdfs:comment "Surface is on:verticalAxisRelation" ;
+    bot:has3DModel ins:N_2947660_BB ;
+    dot:hasInspectionDocumentation sib:NY0MEIYU ;
+    reloc:containedInRear ins:Cap_left ;
+    reloc:containedInTop ins:Cap_left .
+
+ins:DamageArea_NY0MEIYU_2_3 a dot:DamageArea ;
+    rdfs:label "DamageArea_NY0MEIYU_2_3" ;
+    ex:damageSize "small" ;
+    rdfs:comment "Surface is on:verticalAxisRelation" ;
+    bot:has3DModel ins:N_6590628_BB ;
+    dot:hasInspectionDocumentation sib:NY0MEIYU ;
+    reloc:containedInFront ins:Cap_left ;
+    reloc:containedInTop ins:Cap_left .
+
+ins:DamageArea_NY0MEIYU_3 a dot:DamageArea ;
+    rdfs:label "DamageArea_NY0MEIYU_3" ;
+    ex:damageSize "small" ;
+    rdfs:comment "Surface is on:verticalAxisRelation" ;
+    bot:has3DModel ins:N_9121875_BB ;
+    dot:hasInspectionDocumentation sib:NY0MEIYU ;
+    reloc:containedInFront ins:Cap_right ;
+    reloc:containedInTop ins:Cap_right .
+
+ins:DamageArea_NY0MG56G a dot:DamageArea ;
+    rdfs:label "DamageArea_NY0MG56G" ;
+    ex:damageSize "small" ;
+    bot:has3DModel ins:N_9021299_BB ;
+    dot:hasInspectionDocumentation sib:NY0MG56G .
+
+ins:DamageArea_NY0MG56G_2 a dot:DamageArea ;
+    rdfs:label "DamageArea_NY0MG56G_2" ;
+    ex:damageSize "small" ;
+    bot:has3DModel ins:N_3659712_BB ;
+    dot:hasInspectionDocumentation sib:NY0MG56G .
+
+ins:DamageArea_NY0MISFJ a dot:DamageArea ;
+    rdfs:label "DamageArea_NY0MISFJ" ;
+    ex:damageLength "1.73"^^xsd:float ;
+    ex:damageSize "small" ;
+    ex:damageWidth "1.73"^^xsd:float ;
+    bot:has3DModel ins:N_6339941_BB ;
+    dot:hasInspectionDocumentation sib:NY0MISFJ ;
+    reloc:containedInBottom ins:Site ;
+    reloc:containedInFront ins:Bridge .
+
+ins:DamageArea_RE0VABGI a dot:DamageArea ;
+    rdfs:label "DamageArea_RE0VABGI" ;
+    ex:damageSize "medium" ;
+    rdfs:comment "Surface is on:verticalAxisRelation" ;
+    bot:has3DModel ins:N_2660285_BB ;
+    dot:hasInspectionDocumentation sib:RE0VABGI ;
+    reloc:containedInTop ins:Joint_front ;
+    reloc:meetTop ins:Girder .
+
+ins:DamageArea_RE0VABGI_2 a dot:DamageArea ;
+    rdfs:label "DamageArea_RE0VABGI_2" ;
+    ex:damageSize "medium" ;
+    rdfs:comment "Surface is on:verticalAxisRelation" ;
+    bot:has3DModel ins:N_5267307_BB ;
+    dot:hasInspectionDocumentation sib:RE0VABGI ;
+    reloc:containedInTop ins:Joint_rear ;
+    reloc:meetTop ins:Girder .
+
+ins:DamageArea_RE0VD9YZ a dot:DamageArea ;
+    rdfs:label "DamageArea_RE0VD9YZ" ;
+    ex:damageSize "medium" ;
+    rdfs:comment "Surface is on:verticalAxisRelation" ;
+    bot:has3DModel ins:N_1178863_BB ;
+    dot:hasInspectionDocumentation sib:RE0VD9YZ .
+
+ins:DamageArea_RE0VD9YZ_2 a dot:DamageArea ;
+    rdfs:label "DamageArea_RE0VD9YZ_2" ;
+    ex:damageSize "medium" ;
+    rdfs:comment "Surface is on:verticalAxisRelation" ;
+    bot:has3DModel ins:N_9681511_BB ;
+    dot:hasInspectionDocumentation sib:RE0VD9YZ .
+
+ins:DamageArea_RE0VG6C9 a dot:DamageArea ;
+    rdfs:label "DamageArea_RE0VG6C9" ;
+    ex:damageSize "medium" ;
+    rdfs:comment "Surface is on:verticalAxisRelation" ;
+    bot:has3DModel ins:N_1653981_BB ;
+    dot:hasInspectionDocumentation sib:RE0VG6C9 ;
+    reloc:containedInTop ins:Cap_right .
+
+ins:DamageArea_RE0VHE1G a dot:DamageArea ;
+    rdfs:label "DamageArea_RE0VHE1G" ;
+    ex:damageSize "medium" ;
+    rdfs:comment "Surface is on:verticalAxisRelation" ;
+    bot:has3DModel ins:N_6054553_BB ;
+    dot:hasInspectionDocumentation sib:RE0VHE1G ;
+    reloc:containedInBottom ins:TrafficBarrier_left ;
+    reloc:containedInTop ins:TrafficBarrier_left ;
+    reloc:meetTop ins:Girder .
+
+ins:DamageArea_RE0VHE1G_2 a dot:DamageArea ;
+    rdfs:label "DamageArea_RE0VHE1G_2" ;
+    ex:damageSize "medium" ;
+    rdfs:comment "Surface is on:verticalAxisRelation" ;
+    bot:has3DModel ins:N_1436288_BB ;
+    dot:hasInspectionDocumentation sib:RE0VHE1G ;
+    reloc:containedInBottom ins:TrafficBarrier_right ;
+    reloc:containedInTop ins:TrafficBarrier_right ;
+    reloc:meetTop ins:Girder .
+
+ins:DamageArea_RE0VIMC3 a dot:DamageArea ;
+    rdfs:label "DamageArea_RE0VIMC3" ;
+    ex:damageLength "0.5"^^xsd:float ;
+    ex:damageSize "small" ;
+    ex:damageWidth "0.5"^^xsd:float ;
+    bot:has3DModel ins:N_3057153_BB ;
+    dot:hasInspectionDocumentation sib:RE0VIMC3 ;
+    reloc:containedInFront ins:Bridge ;
+    reloc:containedInTop ins:Railing_right ;
+    reloc:meetTop ins:Girder .
+
+ins:DamageArea_RE0VIY4X a dot:DamageArea ;
+    rdfs:label "DamageArea_RE0VIY4X" ;
+    ex:damageSize "medium" ;
+    bot:has3DModel ins:N_5026243_BB ;
+    dot:hasInspectionDocumentation sib:RE0VIY4X .
+
+ins:DamageArea_RE0VOHJV a dot:DamageArea ;
+    rdfs:label "DamageArea_RE0VOHJV" ;
+    ex:damageSize "medium" ;
+    rdfs:comment "Surface is on:verticalAxisRelation" ;
+    bot:has3DModel ins:N_9647278_BB ;
+    dot:hasInspectionDocumentation sib:RE0VOHJV ;
+    reloc:containedInFront ins:Bridge ;
+    reloc:containedInTop ins:Coating .
+
+ins:DamageArea_RE0VOHJV_3 a dot:DamageArea ;
+    rdfs:label "DamageArea_RE0VOHJV_3" ;
+    ex:damageSize "medium" ;
+    rdfs:comment "Surface is on:verticalAxisRelation" ;
+    bot:has3DModel ins:N_4995212_BB ;
+    dot:hasInspectionDocumentation sib:RE0VOHJV ;
+    reloc:containedInRear ins:Bridge ;
+    reloc:containedInTop ins:Coating .
+
+ins:DamageArea_RE0VQ7ZA a dot:DamageArea ;
+    rdfs:label "DamageArea_RE0VQ7ZA" ;
+    ex:damageSize "small" ;
+    rdfs:comment "Surface is on:verticalAxisRelation" ;
+    bot:has3DModel ins:N_3761089_BB ;
+    dot:hasInspectionDocumentation sib:RE0VQ7ZA ;
+    reloc:containedInTop ins:Coating ;
+    reloc:containedInTransversalCenter ins:Coating .
+
+ins:DamageArea_RE0VWAL2 a dot:DamageArea ;
+    rdfs:label "DamageArea_RE0VWAL2" ;
+    ex:damageSize "large" ;
+    rdfs:comment "Surface is on:verticalAxisRelation" ;
+    bot:has3DModel ins:N_8659743_BB ;
+    dot:hasInspectionDocumentation sib:RE0VWAL2 ;
+    reloc:containedInTop ins:Coating .
+
+ins:DamageArea_RE0W8YJT a dot:DamageArea ;
+    rdfs:label "DamageArea_RE0W8YJT" ;
+    ex:damageLength "1.5"^^xsd:float ;
+    ex:damageSize "large" ;
+    ex:damageWidth "1.5"^^xsd:float ;
+    bot:has3DModel ins:N_9490361_BB ;
+    dot:hasInspectionDocumentation sib:RE0W8YJT .
+
+ins:DamageArea_RE0WAQC0 a dot:DamageArea ;
+    rdfs:label "DamageArea_RE0WAQC0" ;
+    ex:damageSize "large" ;
+    bot:has3DModel ins:N_5342805_BB ;
+    dot:hasInspectionDocumentation sib:RE0WAQC0 .
+
+ins:DamageArea_RE0WLOQS a dot:DamageArea ;
+    rdfs:label "DamageArea_RE0WLOQS" ;
+    ex:damageSize "small" ;
+    bot:has3DModel ins:N_1504847_BB ;
+    dot:hasInspectionDocumentation sib:RE0WLOQS ;
+    reloc:containedInLongitudinalCenter ins:Bridge ;
+    reloc:containedInTop ins:Railing_right .
+
+ins:DamageArea_VC0K8D74 a dot:DamageArea ;
+    rdfs:label "DamageArea_VC0K8D74" ;
+    ex:damageSize "medium" ;
+    rdfs:comment "Surface is on:verticalAxisRelation" ;
+    bot:has3DModel ins:N_9144725_BB ;
+    dot:hasInspectionDocumentation sib:VC0K8D74 .
+
+ins:DamageArea_VC0K8D74_2 a dot:DamageArea ;
+    rdfs:label "DamageArea_VC0K8D74_2" ;
+    ex:damageSize "medium" ;
+    rdfs:comment "Surface is on:verticalAxisRelation" ;
+    bot:has3DModel ins:N_7501685_BB ;
+    dot:hasInspectionDocumentation sib:VC0K8D74 .
+
+ins:DamageArea_VC0KBHR8 a dot:DamageArea ;
+    rdfs:label "DamageArea_VC0KBHR8" ;
+    ex:damageSize "medium" ;
+    bot:has3DModel ins:N_7611965_BB ;
+    dot:hasInspectionDocumentation sib:VC0KBHR8 .
+
+ins:DamageArea_VC0LMXQD a dot:DamageArea ;
+    rdfs:label "DamageArea_VC0LMXQD" ;
+    ex:damageSize "medium" ;
+    bot:has3DModel ins:N_6478194_BB ;
+    dot:hasInspectionDocumentation sib:VC0LMXQD .
+
+ins:DamageArea_VC0LMXQD_2 a dot:DamageArea ;
+    rdfs:label "DamageArea_VC0LMXQD_2" ;
+    ex:damageSize "medium" ;
+    bot:has3DModel ins:N_7580275_BB ;
+    dot:hasInspectionDocumentation sib:VC0LMXQD .
+
+ins:DamageArea_VC0NZFYZ a dot:DamageArea ;
+    rdfs:label "DamageArea_VC0NZFYZ" ;
+    ex:damageSize "medium" ;
+    rdfs:comment "Surface is on:verticalAxisRelation" ;
+    bot:has3DModel ins:N_8133711_BB ;
+    dot:hasInspectionDocumentation sib:VC0NZFYZ ;
+    reloc:containedInTop ins:Joint_rear .
+
+ins:DamageArea_VC0O4REQ a dot:DamageArea ;
+    rdfs:label "DamageArea_VC0O4REQ" ;
+    ex:damageSize "medium" ;
+    rdfs:comment "Surface is on:verticalAxisRelation" ;
+    bot:has3DModel ins:N_7639055_BB ;
+    dot:hasInspectionDocumentation sib:VC0O4REQ ;
+    reloc:containedInTop ins:Coating .
+
+ins:DamageArea_VC0OBUAG a dot:DamageArea ;
+    rdfs:label "DamageArea_VC0OBUAG" ;
+    ex:damageSize "small" ;
+    bot:has3DModel ins:N_2279035_BB ;
+    dot:hasInspectionDocumentation sib:VC0OBUAG ;
+    reloc:containedInRear ins:Bridge .
+
+ins:DamageArea_VC0OU4D9 a dot:DamageArea ;
+    rdfs:label "DamageArea_VC0OU4D9" ;
+    ex:damageSize "small" ;
+    rdfs:comment "Surface is on:transversalAxisRelation" ;
+    bot:has3DModel ins:N_4590983_BB ;
+    dot:hasInspectionDocumentation sib:VC0OU4D9 ;
+    reloc:containedInRight ins:GirderMainGirder_Span_1_1_right .
+
+ins:DamageArea_VC0OVZIT a dot:DamageArea ;
+    rdfs:label "DamageArea_VC0OVZIT" ;
+    ex:damageLength "0.1"^^xsd:float ;
+    ex:damageSize "small" ;
+    ex:damageWidth "0.1"^^xsd:float ;
+    rdfs:comment "Surface is on:transversalAxisRelation" ;
+    bot:has3DModel ins:N_7021968_BB ;
+    dot:hasInspectionDocumentation sib:VC0OVZIT ;
+    reloc:containedInRight ins:GirderMainGirder_Span_1_2_right .
+
+ins:DamageArea_VC0Y03SA a dot:DamageArea ;
+    rdfs:label "DamageArea_VC0Y03SA" ;
+    ex:damageSize "medium" ;
+    bot:has3DModel ins:N_3115416_BB ;
+    dot:hasInspectionDocumentation sib:VC0Y03SA ;
+    reloc:containedInLongitudinalCenter ins:Bridge .
+
+ins:DamageArea_VC0Y8HGI a dot:DamageArea ;
+    rdfs:label "DamageArea_VC0Y8HGI" ;
+    ex:damageSize "large" ;
+    bot:has3DModel ins:N_6019575_BB ;
+    dot:hasInspectionDocumentation sib:VC0Y8HGI .
+
+ins:DamageArea_VC0YD96V a dot:DamageArea ;
+    rdfs:label "DamageArea_VC0YD96V" ;
+    ex:damageSize "small" ;
+    bot:has3DModel ins:N_5760820_BB ;
+    dot:hasInspectionDocumentation sib:VC0YD96V ;
+    reloc:containedInBottom ins:Abutment_Span_0 ;
+    reloc:containedInLeft ins:Abutment_Span_0 .
+
+ins:DamageArea_ZD0INW82 a dot:DamageArea ;
+    rdfs:label "DamageArea_ZD0INW82" ;
+    ex:damageSize "medium" ;
+    bot:has3DModel ins:N_7414379_BB ;
+    dot:hasInspectionDocumentation sib:ZD0INW82 .
+
+ins:DamageArea_ZD0INW82_2 a dot:DamageArea ;
+    rdfs:label "DamageArea_ZD0INW82_2" ;
+    ex:damageSize "medium" ;
+    bot:has3DModel ins:N_1765371_BB ;
+    dot:hasInspectionDocumentation sib:ZD0INW82 .
+
+ins:DamageArea_ZD0IP6KW a dot:DamageArea ;
+    rdfs:label "DamageArea_ZD0IP6KW" ;
+    ex:damageSize "small" ;
+    rdfs:comment "Surface is on:verticalAxisRelation" ;
+    bot:has3DModel ins:N_8369544_BB ;
+    dot:hasInspectionDocumentation sib:ZD0IP6KW ;
+    reloc:containedInFront ins:Bridge ;
+    reloc:containedInRight ins:Coating ;
+    reloc:containedInTop ins:Coating .
+
+ins:DamageArea_ZD0IQYIJ a dot:DamageArea ;
+    rdfs:label "DamageArea_ZD0IQYIJ" ;
+    ex:damageSize "small" ;
+    bot:has3DModel ins:N_7300844_BB ;
+    dot:hasInspectionDocumentation sib:ZD0IQYIJ .
+
+ins:Footing_Span_0 a brcomp:Footing ;
+    rdfs:label "Footing Span 0" ;
+    owl:sameAs sib:DP18FYXD ;
+    reloc:containedInLongitudinalCenter ins:Abutment_Span_0 ;
+    reloc:containedInTransversalCenter ins:Abutment_Span_0 ;
+    reloc:meetBottom ins:Abutment_Span_0 .
+
+ins:Footing_Span_1 a brcomp:Footing ;
+    rdfs:label "Footing Span 1" ;
+    owl:sameAs sib:DP18FYXD ;
+    reloc:containedInLongitudinalCenter ins:Pier_Span_1 ;
+    reloc:containedInTransversalCenter ins:Pier_Span_1 ;
+    reloc:meetBottom ins:Pier_Span_1 .
+
+ins:Footing_Span_2 a brcomp:Footing ;
+    rdfs:label "Footing Span 2" ;
+    owl:sameAs sib:DP18FYXD ;
+    reloc:containedInLongitudinalCenter ins:Abutment_Span_2 ;
+    reloc:containedInTransversalCenter ins:Abutment_Span_2 ;
+    reloc:meetBottom ins:Abutment_Span_2 .
+
+ins:GirderCrossGirder_Span_1 a brcomp:GirderCrossGirder ;
+    rdfs:label "GirderCrossGirder_Span_1" ;
+    bot:has3DModel ins:N_5592485_BB ;
+    dot:hasDamageArea ins:DamageArea_DP19VYW0,
+        ins:DamageArea_NY0LUVDD,
+        ins:DamageArea_VC0Y03SA ;
+    reloc:containedInBottom ins:Girder ;
+    reloc:equalTransversal ins:Girder ;
+    reloc:equalVertical ins:GirderMainGirder_Span_1_2_right ;
+    reloc:intersectRear ins:Span_1 .
+
+ins:N_1048936_BB a geom:Box ;
+    ex:hasMaxPoint ins:N_8754036_maxPoint3D ;
+    ex:hasMinPoint ins:N_7329121_minPoint3D ;
+    geom:length "0.027"^^xsd:float ;
+    geom:width "12.0"^^xsd:float ;
+    gom:hasCoordinateSystem ins:BridgeCoordinateSystem .
+
+ins:N_1077136_minPoint3D a geom:Point3D ;
+    geom:x "29.244999999999997"^^xsd:float ;
+    geom:y "6.0"^^xsd:float ;
+    geom:z "0"^^xsd:float .
+
+ins:N_1126018_minPoint3D a geom:Point3D ;
+    geom:x "0"^^xsd:float ;
+    geom:y "0"^^xsd:float .
+
+ins:N_1138722_maxPoint3D a geom:Point3D ;
+    geom:x "27.495"^^xsd:float ;
+    geom:y "0"^^xsd:float ;
+    geom:z "1.05"^^xsd:float .
+
+ins:N_1174505_maxPoint3D a geom:Point3D ;
+    geom:x "56.75"^^xsd:float ;
+    geom:y "2.1"^^xsd:float ;
+    geom:z "1.425"^^xsd:float .
+
+ins:N_1178863_BB a geom:Box ;
+    ex:hasMaxPoint ins:N_4954008_maxPoint3D ;
+    ex:hasMinPoint ins:N_1755205_minPoint3D ;
+    geom:length "56.75"^^xsd:float ;
+    geom:width "2.0"^^xsd:float ;
+    gom:hasCoordinateSystem ins:BridgeCoordinateSystem .
+
+ins:N_1293756_minPoint3D a geom:Point3D ;
+    geom:x "0"^^xsd:float ;
+    geom:y "0"^^xsd:float .
+
+ins:N_1326118_BB a geom:Box ;
+    ex:hasMaxPoint ins:N_9990294_maxPoint3D ;
+    ex:hasMinPoint ins:N_7868344_minPoint3D ;
+    geom:length "0.027"^^xsd:float ;
+    geom:width "4.0"^^xsd:float ;
+    gom:hasCoordinateSystem ins:BridgeCoordinateSystem .
+
+ins:N_1326468_minPoint3D a geom:Point3D ;
+    geom:x "0"^^xsd:float ;
+    geom:y "2.0"^^xsd:float ;
+    geom:z "1.355"^^xsd:float .
+
+ins:N_1418802_maxPoint3D a geom:Point3D ;
+    geom:x "56.75"^^xsd:float ;
+    geom:y "12.0"^^xsd:float .
+
+ins:N_1420208_maxPoint3D a geom:Point3D ;
+    geom:x "56.7635"^^xsd:float ;
+    geom:y "12.0"^^xsd:float ;
+    geom:z "1.25"^^xsd:float .
+
+ins:N_1436288_BB a geom:Box ;
+    ex:hasMaxPoint ins:N_5887544_maxPoint3D ;
+    ex:hasMinPoint ins:N_9658506_minPoint3D ;
+    geom:length "55.99"^^xsd:float ;
+    geom:width "0.5"^^xsd:float ;
+    gom:hasCoordinateSystem ins:BridgeCoordinateSystem .
+
+ins:N_1451607_maxPoint3D a geom:Point3D ;
+    geom:x "57.5"^^xsd:float ;
+    geom:y "12.0"^^xsd:float ;
+    geom:z "0"^^xsd:float .
+
+ins:N_1490557_maxPoint3D a geom:Point3D ;
+    geom:x "27.495"^^xsd:float ;
+    geom:y "9.0"^^xsd:float ;
+    geom:z "1.05"^^xsd:float .
+
+ins:N_1495552_minPoint3D a geom:Point3D ;
+    geom:x "-0.0135"^^xsd:float ;
+    geom:y "0"^^xsd:float ;
+    geom:z "1.25"^^xsd:float .
+
+ins:N_1504847_BB a geom:Box ;
+    ex:hasMaxPoint ins:N_9549380_maxPoint3D ;
+    ex:hasMinPoint ins:N_7940664_minPoint3D ;
+    geom:height "0.37"^^xsd:float ;
+    geom:length "18.92"^^xsd:float ;
+    geom:width "0.25"^^xsd:float ;
+    gom:hasCoordinateSystem ins:BridgeCoordinateSystem .
+
+ins:N_1511022_minPoint3D a geom:Point3D ;
+    geom:x "0"^^xsd:float ;
+    geom:y "10.0"^^xsd:float .
+
+ins:N_1535151_minPoint3D a geom:Point3D ;
+    geom:x "0"^^xsd:float .
+
+ins:N_1564692_maxPoint3D a geom:Point3D ;
+    geom:x "18.92"^^xsd:float ;
+    geom:z "1.425"^^xsd:float .
+
+ins:N_1591607_maxPoint3D a geom:Point3D ;
+    geom:x "56.75"^^xsd:float ;
+    geom:y "12.0"^^xsd:float ;
+    geom:z "1.25"^^xsd:float .
+
+ins:N_1604672_BB a geom:Box ;
+    ex:hasMaxPoint ins:N_7984590_maxPoint3D ;
+    ex:hasMinPoint ins:N_3378497_minPoint3D ;
+    geom:length "56.75"^^xsd:float ;
+    geom:width "2.67"^^xsd:float ;
+    gom:hasCoordinateSystem ins:BridgeCoordinateSystem .
+
+ins:N_1623872_minPoint3D a geom:Point3D ;
+    geom:x "0"^^xsd:float .
+
+ins:N_1653981_BB a geom:Box ;
+    ex:hasMaxPoint ins:N_8191427_maxPoint3D ;
+    ex:hasMinPoint ins:N_2378900_minPoint3D ;
+    geom:length "56.75"^^xsd:float ;
+    geom:width "2.0"^^xsd:float ;
+    gom:hasCoordinateSystem ins:BridgeCoordinateSystem .
+
+ins:N_1703676_BB a geom:Box ;
+    ex:hasMaxPoint ins:N_9310101_maxPoint3D ;
+    ex:hasMinPoint ins:N_9329855_minPoint3D ;
+    geom:height "1.05"^^xsd:float ;
+    geom:length "26.62"^^xsd:float ;
+    geom:width "3.0"^^xsd:float ;
+    gom:hasCoordinateSystem ins:BridgeCoordinateSystem .
+
+ins:N_1710012_maxPoint3D a geom:Point3D ;
+    geom:x "18.92"^^xsd:float ;
+    geom:z "1.425"^^xsd:float .
+
+ins:N_1710605_minPoint3D a geom:Point3D ;
+    geom:x "37.83"^^xsd:float ;
+    geom:y "10.0"^^xsd:float ;
+    geom:z "1.315"^^xsd:float.
+
+ins:N_1755205_minPoint3D a geom:Point3D ;
+    geom:x "0"^^xsd:float ;
+    geom:y "0"^^xsd:float .
+
+ins:N_1759569_minPoint3D a geom:Point3D ;
+    geom:x "-0.75"^^xsd:float ;
+    geom:y "8.0"^^xsd:float ;
+    geom:z "-4.93"^^xsd:float .
+
+ins:N_1765371_BB a geom:Box ;
+    ex:hasMaxPoint ins:N_4081422_maxPoint3D ;
+    ex:hasMinPoint ins:N_9675894_minPoint3D ;
+    geom:height "0.35"^^xsd:float ;
+    geom:length "56.75"^^xsd:float ;
+    geom:width "2.0"^^xsd:float ;
+    gom:hasCoordinateSystem ins:BridgeCoordinateSystem .
+
+ins:N_1771368_minPoint3D a geom:Point3D ;
+    geom:x "37.83"^^xsd:float ;
+    geom:y "10.0"^^xsd:float ;
+    geom:z "1.0750000000000002"^^xsd:float .
+
+ins:N_1797605_minPoint3D a geom:Point3D ;
+    geom:x "0"^^xsd:float ;
+    geom:y "10.0"^^xsd:float ;
+    geom:z "1.0750000000000002"^^xsd:float .
+
+ins:N_1839272_minPoint3D a geom:Point3D ;
+    geom:x "0.0"^^xsd:float .
+
+ins:N_1855354_minPoint3D a geom:Point3D ;
+    geom:y "0"^^xsd:float .
+
+ins:N_1868980_BB a geom:Box ;
+    ex:hasMaxPoint ins:N_3715265_maxPoint3D ;
+    ex:hasMinPoint ins:N_4809633_minPoint3D ;
+    geom:length "28.37"^^xsd:float ;
+    gom:hasCoordinateSystem ins:BridgeCoordinateSystem .
+
+ins:N_1896376_BB a geom:Box ;
+    ex:hasMaxPoint ins:N_7025120_maxPoint3D ;
+    ex:hasMinPoint ins:N_3318277_minPoint3D ;
+    geom:height "0.08"^^xsd:float ;
+    geom:length "56.75"^^xsd:float ;
+    geom:width "8.0"^^xsd:float ;
+    gom:hasCoordinateSystem ins:BridgeCoordinateSystem .
+
+ins:N_1915657_maxPoint3D a geom:Point3D ;
+    geom:x "56.75"^^xsd:float ;
+    geom:y "2.0"^^xsd:float ;
+    geom:z "1.425"^^xsd:float .
+
+ins:N_1922999_minPoint3D a geom:Point3D ;
+    geom:x "0.875"^^xsd:float ;
+    geom:y "3.0"^^xsd:float ;
+    geom:z "0"^^xsd:float .
+
+ins:N_1950553_maxPoint3D a geom:Point3D ;
+    geom:x "56.75"^^xsd:float ;
+    geom:y "7.335"^^xsd:float ;
+    geom:z "1.33"^^xsd:float .
+
+ins:N_1993133_minPoint3D a geom:Point3D ;
+    geom:x "56.0"^^xsd:float ;
+    geom:y "0"^^xsd:float ;
+    geom:z "-4.93"^^xsd:float .
+
+ins:N_2068731_minPoint3D a geom:Point3D ;
+    geom:y "0"^^xsd:float .
+
+ins:N_2076920_minPoint3D a geom:Point3D ;
+    geom:x "0"^^xsd:float ;
+    geom:y "0"^^xsd:float ;
+    geom:z "0"^^xsd:float .
+
+ins:N_2122537_BB a geom:Box ;
+    ex:hasMaxPoint ins:N_5861046_maxPoint3D ;
+    ex:hasMinPoint ins:N_6382390_minPoint3D ;
+    geom:height "1.1"^^xsd:float ;
+    geom:length "54.74"^^xsd:float ;
+    geom:width "0.25"^^xsd:float ;
+    gom:hasCoordinateSystem ins:BridgeCoordinateSystem .
+
+ins:N_2123130_BB a geom:Box ;
+    ex:hasMaxPoint ins:N_1420208_maxPoint3D ;
+    ex:hasMinPoint ins:N_4712453_minPoint3D ;
+    geom:length "0.027"^^xsd:float ;
+    geom:width "12.0"^^xsd:float ;
+    gom:hasCoordinateSystem ins:BridgeCoordinateSystem .
+
+ins:N_2212287_minPoint3D a geom:Point3D ;
+    geom:x "0"^^xsd:float ;
+    geom:y "10.0"^^xsd:float ;
+    geom:z "1.0750000000000002"^^xsd:float .
+
+ins:N_2216759_BB a geom:Box ;
+    ex:hasMaxPoint ins:N_1710012_maxPoint3D ;
+    ex:hasMinPoint ins:N_9964443_minPoint3D ;
+    geom:height "0.35"^^xsd:float ;
+    geom:length "18.92"^^xsd:float ;
+    gom:hasCoordinateSystem ins:BridgeCoordinateSystem .
+
+ins:N_2217675_BB a geom:Box ;
+    ex:hasMaxPoint ins:N_5121820_maxPoint3D ;
+    ex:hasMinPoint ins:N_5992533_minPoint3D ;
+    geom:height "1.25"^^xsd:float ;
+    geom:length "56.75"^^xsd:float ;
+    geom:width "12.0"^^xsd:float ;
+    gom:hasCoordinateSystem ins:BridgeCoordinateSystem .
+
+ins:N_2239921_minPoint3D a geom:Point3D ;
+    geom:x "0"^^xsd:float ;
+    geom:y "11.75"^^xsd:float ;
+    geom:z "1.425"^^xsd:float .
+
+ins:N_2267182_maxPoint3D a geom:Point3D ;
+    geom:x "56.75"^^xsd:float ;
+    geom:y "2.0"^^xsd:float ;
+    geom:z "1.425"^^xsd:float .
+
+ins:N_2275527_minPoint3D a geom:Point3D ;
+    geom:x "0"^^xsd:float ;
+    geom:y "0"^^xsd:float ;
+    geom:z "0"^^xsd:float .
+
+ins:N_2279035_BB a geom:Box ;
+    ex:hasMaxPoint ins:N_5810443_maxPoint3D ;
+    ex:hasMinPoint ins:N_9138354_minPoint3D ;
+    geom:height "0.35"^^xsd:float ;
+    geom:length "18.92"^^xsd:float ;
+    geom:width "2.0"^^xsd:float ;
+    gom:hasCoordinateSystem ins:BridgeCoordinateSystem .
+
+ins:N_2351393_minPoint3D a geom:Point3D ;
+    geom:x "56.7365"^^xsd:float ;
+    geom:y "0"^^xsd:float ;
+    geom:z "1.31"^^xsd:float.
+
+ins:N_2378900_minPoint3D a geom:Point3D ;
+    geom:x "0"^^xsd:float ;
+    geom:y "0"^^xsd:float ;
+    geom:z "1.425"^^xsd:float .
+
+ins:N_2437389_minPoint3D a geom:Point3D ;
+    geom:x "0.0"^^xsd:float ;
+    geom:y "0"^^xsd:float ;
+    geom:z "1.25"^^xsd:float .
+
+ins:N_2493723_BB a geom:Box ;
+    ex:hasMaxPoint ins:N_2834853_maxPoint3D ;
+    ex:hasMinPoint ins:N_6480392_minPoint3D ;
+    geom:height "4.93"^^xsd:float ;
+    geom:length "1.5"^^xsd:float ;
+    geom:width "12.0"^^xsd:float ;
+    gom:hasCoordinateSystem ins:BridgeCoordinateSystem .
+
+ins:N_2574012_BB a geom:Box ;
+    ex:hasMaxPoint ins:N_8116683_maxPoint3D ;
+    ex:hasMinPoint ins:N_2212287_minPoint3D ;
+    geom:height "0.35"^^xsd:float ;
+    geom:length "56.75"^^xsd:float ;
+    geom:width "2.0"^^xsd:float ;
+    gom:hasCoordinateSystem ins:BridgeCoordinateSystem .
+
+ins:N_2654083_BB a geom:Box ;
+    ex:hasMaxPoint ins:N_7382431_maxPoint3D ;
+    ex:hasMinPoint ins:N_6524640_minPoint3D ;
+    geom:length "0.027"^^xsd:float ;
+    geom:width "4.0"^^xsd:float ;
+    geom:height "0.02"^^xsd:float;
+    gom:hasCoordinateSystem ins:BridgeCoordinateSystem .
+
+ins:N_2660285_BB a geom:Box ;
+    ex:hasMaxPoint ins:N_5177286_maxPoint3D ;
+    ex:hasMinPoint ins:N_7661468_minPoint3D ;
+    geom:length "0.027"^^xsd:float ;
+    geom:width "12.0"^^xsd:float ;
+    gom:hasCoordinateSystem ins:BridgeCoordinateSystem .
+
+ins:N_2690190_maxPoint3D a geom:Point3D ;
+    geom:x "55.864999999999995"^^xsd:float ;
+    geom:y "9.0"^^xsd:float ;
+    geom:z "1.05"^^xsd:float .
+
+ins:N_2690606_minPoint3D a geom:Point3D ;
+    geom:x "37.83"^^xsd:float ;
+    geom:y "0"^^xsd:float .
+
+ins:N_2691776_minPoint3D a geom:Point3D ;
+    geom:x "0"^^xsd:float ;
+geom:y "10.00"^^xsd:float ;
+geom:z "1.315"^^xsd:float .
+
+ins:N_2701490_maxPoint3D a geom:Point3D ;
+    geom:x "29.37"^^xsd:float ;
+    geom:y "12.0"^^xsd:float ;
+    geom:z "1.05"^^xsd:float .
+
+ins:N_2743680_maxPoint3D a geom:Point3D ;
+    geom:x "56.7635"^^xsd:float ;
+    geom:y "12.0"^^xsd:float ;
+    geom:z "1.33"^^xsd:float .
+
+ins:N_2751168_maxPoint3D a geom:Point3D ;
+    geom:x "56.75"^^xsd:float ;
+    geom:y "2.0"^^xsd:float ;
+    geom:z "1.425"^^xsd:float .
+
+ins:N_2768112_maxPoint3D a geom:Point3D ;
+    geom:x "0.75"^^xsd:float ;
+    geom:y "12.0"^^xsd:float ;
+    geom:z "-3.29"^^xsd:float .
+
+ins:N_2770930_maxPoint3D a geom:Point3D ;
+    geom:x "18.92"^^xsd:float ;
+   geom:y "12.00"^^xsd:float ;
+   geom:z "1.425"^^xsd:float .
+
+ins:N_2791865_minPoint3D a geom:Point3D ;
+    geom:x "27.37"^^xsd:float ;
+    geom:y "0.0"^^xsd:float ;
+    geom:z "-4.930000000000001"^^xsd:float .
+
+ins:N_2834853_maxPoint3D a geom:Point3D ;
+    geom:x "0.75"^^xsd:float ;
+    geom:y "12.0"^^xsd:float ;
+    geom:z "0"^^xsd:float .
+
+ins:N_2924307_BB a geom:Box ;
+    ex:hasMaxPoint ins:N_4176173_maxPoint3D ;
+    ex:hasMinPoint ins:N_4310490_minPoint3D ;
+    geom:height "0.6"^^xsd:float ;
+    geom:length "55.99"^^xsd:float ;
+    geom:width "0.5"^^xsd:float ;
+    gom:hasCoordinateSystem ins:BridgeCoordinateSystem .
+
+ins:N_2947660_BB a geom:Box ;
+    ex:hasMaxPoint ins:N_1418802_maxPoint3D ;
+    ex:hasMinPoint ins:N_3596967_minPoint3D ;
+    geom:length "18.92"^^xsd:float ;
+    geom:width "2.0"^^xsd:float ;
+    gom:hasCoordinateSystem ins:BridgeCoordinateSystem .
+
+ins:N_2959945_BB a geom:Box ;
+    ex:hasMaxPoint ins:N_9136251_maxPoint3D ;
+    ex:hasMinPoint ins:N_2690606_minPoint3D ;
+    geom:length "18.92"^^xsd:float ;
+    geom:width "2.0"^^xsd:float ;
+    gom:hasCoordinateSystem ins:BridgeCoordinateSystem .
+
+ins:N_2968590_maxPoint3D a geom:Point3D ;
+    geom:x "29.37"^^xsd:float ;
+    geom:y "6.0"^^xsd:float ;
+    geom:z "1.05"^^xsd:float .
+
+ins:N_3008419_minPoint3D a geom:Point3D ;
+    geom:x "0"^^xsd:float ;
+    geom:y "0"^^xsd:float ;
+    geom:z "0"^^xsd:float .
+
+ins:N_3013893_maxPoint3D a geom:Point3D ;
+    geom:x "56.75"^^xsd:float ;
+    geom:y "2.0"^^xsd:float .
+
+ins:N_3025684_minPoint3D a geom:Point3D ;
+    geom:x "56.0"^^xsd:float ;
+    geom:y "0"^^xsd:float ;
+    geom:z "-4.93"^^xsd:float .
+
+ins:N_3036397_BB a geom:Box ;
+    ex:hasMaxPoint ins:N_6907544_maxPoint3D ;
+    ex:hasMinPoint ins:N_2437389_minPoint3D ;
+    geom:height "0.42"^^xsd:float ;
+    geom:length "18.92"^^xsd:float ;
+    geom:width "0.25"^^xsd:float ;
+    gom:hasCoordinateSystem ins:BridgeCoordinateSystem .
+
+ins:N_3053969_minPoint3D a geom:Point3D ;
+    geom:x "0"^^xsd:float ;
+    geom:y "0"^^xsd:float ;
+    geom:z "1.0750000000000002"^^xsd:float .
+
+ins:N_3057153_BB a geom:Box ;
+    ex:hasMaxPoint ins:N_4767937_maxPoint3D ;
+    ex:hasMinPoint ins:N_3869042_minPoint3D ;
+    geom:height "0.42"^^xsd:float ;
+    geom:length "18.92"^^xsd:float ;
+    geom:width "0.25"^^xsd:float ;
+    gom:hasCoordinateSystem ins:BridgeCoordinateSystem .
+
+ins:N_3077496_maxPoint3D a geom:Point3D ;
+    geom:x "0.75"^^xsd:float ;
+    geom:y "12.0"^^xsd:float ;
+    geom:z "-3.29"^^xsd:float .
+
+ins:N_3083699_minPoint3D a geom:Point3D ;
+    geom:x "-0.0135"^^xsd:float ;
+    geom:y "0"^^xsd:float ;
+    geom:z "1.28"^^xsd:float .
+
+ins:N_3115416_BB a geom:Box ;
+    ex:hasMaxPoint ins:N_8980850_maxPoint3D ;
+    ex:hasMinPoint ins:N_4022503_minPoint3D ;
+    geom:length "18.92"^^xsd:float ;
+    geom:width "12.0"^^xsd:float ;
+    gom:hasCoordinateSystem ins:BridgeCoordinateSystem .
+
+ins:N_3128626_minPoint3D a geom:Point3D ;
+    geom:x "0.875"^^xsd:float ;
+    geom:y "0"^^xsd:float ;
+    geom:z "0"^^xsd:float .
+
+ins:N_3133055_maxPoint3D a geom:Point3D ;
+    geom:x "56.75"^^xsd:float ;
+    geom:y "12.0"^^xsd:float ;
+    geom:z "1.425"^^xsd:float .
+
+ins:N_3163604_minPoint3D a geom:Point3D ;
+    geom:x "0"^^xsd:float ;
+    geom:y "0"^^xsd:float ;
+    geom:z "1.425"^^xsd:float .
+
+ins:N_3168990_maxPoint3D a geom:Point3D ;
+    geom:x "56.75"^^xsd:float ;
+    geom:y "2.0"^^xsd:float ;
+    geom:z "1.425"^^xsd:float .
+
+ins:N_3231068_BB a geom:Box ;
+    ex:hasMaxPoint ins:N_4568055_maxPoint3D ;
+    ex:hasMinPoint ins:N_7903087_minPoint3D ;
+    geom:height "4.93"^^xsd:float ;
+    geom:length "1.5"^^xsd:float ;
+    geom:width "12.0"^^xsd:float ;
+    gom:hasCoordinateSystem ins:BridgeCoordinateSystem .
+
+ins:N_3302968_BB a geom:Box ;
+    ex:hasMaxPoint ins:N_8574828_maxPoint3D ;
+    ex:hasMinPoint ins:N_5148422_minPoint3D ;
+    geom:length "18.92"^^xsd:float ;
+    geom:width "12.0"^^xsd:float ;
+    gom:hasCoordinateSystem ins:BridgeCoordinateSystem .
+
+ins:N_3318277_minPoint3D a geom:Point3D ;
+    geom:x "0"^^xsd:float ;
+    geom:y "2.0"^^xsd:float ;
+    geom:z "1.25"^^xsd:float .
+
+ins:N_3340943_maxPoint3D a geom:Point3D ;
+    geom:x "56.75"^^xsd:float ;
+    geom:y "12.0"^^xsd:float ;
+    geom:z "1.25"^^xsd:float .
+
+ins:N_3378497_minPoint3D a geom:Point3D ;
+    geom:x "0"^^xsd:float ;
+    geom:y "4.665"^^xsd:float ;
+    geom:z "1.33"^^xsd:float .
+
+ins:N_3393698_minPoint3D a geom:Point3D ;
+    geom:x "0"^^xsd:float ;
+    geom:y "0"^^xsd:float ;
+    geom:z "1.0750000000000002"^^xsd:float .
+
+ins:N_3413982_BB a geom:Box ;
+    ex:hasMaxPoint ins:N_8586129_maxPoint3D ;
+    ex:hasMinPoint ins:N_1293756_minPoint3D ;
+    geom:length "56.75"^^xsd:float ;
+    geom:width "2.0"^^xsd:float ;
+    gom:hasCoordinateSystem ins:BridgeCoordinateSystem .
+
+ins:N_3417607_minPoint3D a geom:Point3D ;
+    geom:x "-0.75"^^xsd:float ;
+    geom:y "8.0"^^xsd:float ;
+    geom:z "-4.93"^^xsd:float .
+
+ins:N_3449977_BB a geom:Box ;
+    ex:hasMaxPoint ins:N_8562228_maxPoint3D ;
+    ex:hasMinPoint ins:N_1771368_minPoint3D ;
+    geom:height "0.35"^^xsd:float ;
+    geom:length "18.92"^^xsd:float ;
+    geom:width "2.0"^^xsd:float ;
+    gom:hasCoordinateSystem ins:BridgeCoordinateSystem .
+
+ins:N_3515718_minPoint3D a geom:Point3D ;
+    geom:x "-0.75"^^xsd:float ;
+    geom:y "0"^^xsd:float ;
+    geom:z "-4.93"^^xsd:float .
+
+ins:N_3579755_maxPoint3D a geom:Point3D ;
+    geom:x "27.495"^^xsd:float ;
+    geom:y "3.0"^^xsd:float ;
+    geom:z "1.05"^^xsd:float .
+
+ins:N_3596967_minPoint3D a geom:Point3D ;
+    geom:x "37.83"^^xsd:float ;
+    geom:y "10.0"^^xsd:float .
+
+ins:N_3610090_maxPoint3D a geom:Point3D ;
+    geom:x "56.75"^^xsd:float ;
+    geom:y "11.25"^^xsd:float ;
+    geom:z "1.25"^^xsd:float .
+
+ins:N_3617532_minPoint3D a geom:Point3D ;
+    geom:x "57.5"^^xsd:float ;
+    geom:y "0"^^xsd:float ;
+    geom:z "-4.93"^^xsd:float .
+
+ins:N_3622312_minPoint3D a geom:Point3D ;
+    geom:y "0"^^xsd:float ;
+    geom:z "1.0150000000000001"^^xsd:float .
+
+ins:N_3659712_BB a geom:Box ;
+    ex:hasMaxPoint ins:N_9588266_maxPoint3D ;
+    ex:hasMinPoint ins:N_9791895_minPoint3D ;
+    geom:height "4.93"^^xsd:float ;
+    geom:length "1.5"^^xsd:float ;
+    geom:width "12.0"^^xsd:float ;
+    gom:hasCoordinateSystem ins:BridgeCoordinateSystem .
+
+ins:N_3715265_maxPoint3D a geom:Point3D ;
+    geom:x "56.74"^^xsd:float .
+
+ins:N_3716728_maxPoint3D a geom:Point3D ;
+    geom:x "56.75"^^xsd:float ;
+    geom:y "2.0"^^xsd:float ;
+    geom:z "1.425"^^xsd:float .
+
+ins:N_3756355_minPoint3D a geom:Point3D ;
+    geom:x "0"^^xsd:float ;
+    geom:y "0"^^xsd:float ;
+    geom:z "1.0750000000000002"^^xsd:float .
+
+ins:N_3761089_BB a geom:Box ;
+    ex:hasMaxPoint ins:N_1950553_maxPoint3D ;
+    ex:hasMinPoint ins:N_9973149_minPoint3D ;
+    geom:length "56.75"^^xsd:float ;
+    geom:width "2.67"^^xsd:float ;
+    gom:hasCoordinateSystem ins:BridgeCoordinateSystem .
+
+ins:N_3771856_BB a geom:Box ;
+    ex:hasMaxPoint ins:N_6861297_maxPoint3D ;
+    ex:hasMinPoint ins:N_3622312_minPoint3D ;
+    geom:height "0.07"^^xsd:float ;
+    geom:width "12.0"^^xsd:float ;
+    gom:hasCoordinateSystem ins:BridgeCoordinateSystem .
+
+ins:N_3823752_minPoint3D a geom:Point3D ;
+    geom:x "57.5"^^xsd:float ;
+    geom:y "0"^^xsd:float ;
+    geom:z "-4.93"^^xsd:float .
+
+ins:N_3869042_minPoint3D a geom:Point3D ;
+    geom:x "0.0"^^xsd:float ;
+    geom:y "0"^^xsd:float ;
+    geom:z "1.25"^^xsd:float .
+
+ins:N_3882928_minPoint3D a geom:Point3D ;
+    geom:x "0.875"^^xsd:float ;
+    geom:y "6.0"^^xsd:float ;
+    geom:z "0"^^xsd:float .
+
+ins:N_3892993_BB a geom:Box ;
+    ex:hasMaxPoint ins:N_5969060_maxPoint3D ;
+    ex:hasMinPoint ins:N_6920012_minPoint3D ;
+    geom:length "18.92"^^xsd:float ;
+    geom:width "2.0"^^xsd:float ;
+    geom:height "0.11"^^xsd:float;
+    gom:hasCoordinateSystem ins:BridgeCoordinateSystem .
+
+ins:N_3920033_maxPoint3D a geom:Point3D ;
+    geom:x "0.0135"^^xsd:float ;
+    geom:y "12.0"^^xsd:float ;
+    geom:z "1.33"^^xsd:float .
+
+ins:N_3963900_maxPoint3D a geom:Point3D ;
+    geom:x "56.75"^^xsd:float .
+
+ins:N_4010870_minPoint3D a geom:Point3D ;
+    geom:x "27.37"^^xsd:float ;
+    geom:y "0"^^xsd:float ;
+    geom:z "-4.930000000000001"^^xsd:float .
+
+ins:N_4022503_minPoint3D a geom:Point3D ;
+    geom:x "18.915"^^xsd:float ;
+    geom:y "0"^^xsd:float .
+
+ins:N_4058515_BB a geom:Box ;
+    ex:hasMaxPoint ins:N_6643285_maxPoint3D ;
+    ex:hasMinPoint ins:N_8286188_minPoint3D ;
+    geom:length "55.99"^^xsd:float ;
+    geom:width "0.5"^^xsd:float ;
+    gom:hasCoordinateSystem ins:BridgeCoordinateSystem .
+
+ins:N_4081422_maxPoint3D a geom:Point3D ;
+    geom:x "56.75"^^xsd:float ;
+    geom:y "12.0"^^xsd:float ;
+    geom:z "1.425"^^xsd:float .
+
+ins:N_4089897_BB a geom:Box ;
+    ex:hasMaxPoint ins:N_2690190_maxPoint3D ;
+    ex:hasMinPoint ins:N_1077136_minPoint3D ;
+    geom:height "1.05"^^xsd:float ;
+    geom:length "26.62"^^xsd:float ;
+    geom:width "3.0"^^xsd:float ;
+    gom:hasCoordinateSystem ins:BridgeCoordinateSystem .
+
+ins:N_4119247_minPoint3D a geom:Point3D ;
+    geom:x "0"^^xsd:float ;
+    geom:y "0.75"^^xsd:float ;
+    geom:z "1.425"^^xsd:float .
+
+ins:N_4137753_minPoint3D a geom:Point3D ;
+    geom:x "0.875"^^xsd:float ;
+    geom:y "0"^^xsd:float ;
+    geom:z "0"^^xsd:float .
+
+ins:N_4171532_BB a geom:Box ;
+    ex:hasMaxPoint ins:N_9541255_maxPoint3D ;
+    ex:hasMinPoint ins:N_3515718_minPoint3D ;
+    geom:height "4.93"^^xsd:float ;
+    geom:length "1.5"^^xsd:float ;
+    geom:width "12.0"^^xsd:float ;
+    gom:hasCoordinateSystem ins:BridgeCoordinateSystem .
+
+ins:N_4176173_maxPoint3D a geom:Point3D ;
+    geom:x "56.75"^^xsd:float ;
+    geom:y "11.25"^^xsd:float ;
+    geom:z "2.025"^^xsd:float .
+
+ins:N_4192499_BB a geom:Box ;
+    ex:hasMaxPoint ins:N_6652076_maxPoint3D ;
+    ex:hasMinPoint ins:N_6342154_minPoint3D ;
+    geom:height "1.05"^^xsd:float ;
+    geom:length "26.62"^^xsd:float ;
+    geom:width "3.0"^^xsd:float ;
+    gom:hasCoordinateSystem ins:BridgeCoordinateSystem .
+
+ins:N_4233090_BB a geom:Box ;
+    ex:hasMaxPoint ins:N_8048485_maxPoint3D ;
+    ex:hasMinPoint ins:N_7723707_minPoint3D ;
+    geom:length "18.92"^^xsd:float ;
+    geom:width "8.0"^^xsd:float ;
+    gom:hasCoordinateSystem ins:BridgeCoordinateSystem .
+
+ins:N_4259835_minPoint3D a geom:Point3D ;
+    geom:x "0"^^xsd:float ;
+    geom:y "0"^^xsd:float ;
+    geom:z "1.0750000000000002"^^xsd:float .
+
+ins:N_4310490_minPoint3D a geom:Point3D ;
+    geom:x "0"^^xsd:float ;
+    geom:y "10.75"^^xsd:float ;
+    geom:z "1.425"^^xsd:float .
+
+ins:N_4347482_BB a geom:Box ;
+    ex:hasMaxPoint ins:N_1174505_maxPoint3D ;
+    ex:hasMinPoint ins:N_1326468_minPoint3D ;
+    geom:height "0.07"^^xsd:float ;
+    geom:length "155.68"^^xsd:float ;
+    geom:width "0.1"^^xsd:float ;
+    gom:hasCoordinateSystem ins:BridgeCoordinateSystem .
+
+ins:N_4364308_BB a geom:Box ;
+    ex:hasMaxPoint ins:N_9062885_maxPoint3D ;
+    ex:hasMinPoint ins:N_6831033_minPoint3D ;
+    geom:length "18.92"^^xsd:float ;
+    gom:hasCoordinateSystem ins:BridgeCoordinateSystem .
+
+ins:N_4407299_BB a geom:Box ;
+    ex:hasMaxPoint ins:N_7407456_maxPoint3D ;
+    ex:hasMinPoint ins:N_4010870_minPoint3D ;
+    geom:height "5.98"^^xsd:float ;
+    geom:length "2.0"^^xsd:float ;
+    geom:width "12.0"^^xsd:float ;
+    gom:hasCoordinateSystem ins:BridgeCoordinateSystem .
+
+ins:N_4449596_maxPoint3D a geom:Point3D ;
+    geom:x "18.92"^^xsd:float ;
+    geom:y "12.0"^^xsd:float ;
+    geom:z "1.25"^^xsd:float .
+
+ins:N_4494112_BB a geom:Box ;
+    ex:hasMaxPoint ins:N_6962687_maxPoint3D ;
+    ex:hasMinPoint ins:N_1797605_minPoint3D ;
+    geom:height "0.35"^^xsd:float ;
+    geom:length "56.75"^^xsd:float ;
+    geom:width "2.0"^^xsd:float ;
+    gom:hasCoordinateSystem ins:BridgeCoordinateSystem .
+
+ins:N_4505165_maxPoint3D a geom:Point3D ;
+    geom:x "27.495"^^xsd:float ;
+    geom:y "0"^^xsd:float ;
+    geom:z "1.05"^^xsd:float .
+
+ins:N_4507431_maxPoint3D a geom:Point3D ;
+    geom:x "56.75"^^xsd:float ;
+    geom:y "12.0"^^xsd:float ;
+    geom:z "1.425"^^xsd:float .
+
+ins:N_4519209_maxPoint3D a geom:Point3D ;
+    geom:x "56.75"^^xsd:float ;
+    geom:y "12.0"^^xsd:float .
+
+ins:N_4562841_minPoint3D a geom:Point3D ;
+    geom:x "0"^^xsd:float ;
+    geom:y "0"^^xsd:float ;
+    geom:z "1.05"^^xsd:float .
+
+ins:N_4568055_maxPoint3D a geom:Point3D ;
+    geom:x "57.5"^^xsd:float ;
+    geom:y "12.0"^^xsd:float ;
+    geom:z "0"^^xsd:float .
+
+ins:N_4590983_BB a geom:Box ;
+    ex:hasMaxPoint ins:N_4756304_maxPoint3D ;
+    ex:hasMinPoint ins:N_4137753_minPoint3D ;
+    geom:height "1.05"^^xsd:float ;
+    geom:length "26.62"^^xsd:float ;
+    gom:hasCoordinateSystem ins:BridgeCoordinateSystem .
+
+ins:N_4609752_minPoint3D a geom:Point3D ;
+    geom:x "0"^^xsd:float ;
+    geom:y "10.75"^^xsd:float ;
+    geom:z "1.25"^^xsd:float .
+
+ins:N_4632993_minPoint3D a geom:Point3D ;
+    geom:x "56.0"^^xsd:float ;
+    geom:y "0"^^xsd:float ;
+    geom:z "-4.93"^^xsd:float .
+
+ins:N_4642265_minPoint3D a geom:Point3D ;
+    geom:x "0"^^xsd:float ;
+    geom:y "0"^^xsd:float ;
+    geom:z "1.0750000000000002"^^xsd:float .
+
+ins:N_4670073_minPoint3D a geom:Point3D ;
+    geom:x "29.244999999999997"^^xsd:float ;
+    geom:y "0"^^xsd:float ;
+    geom:z "0"^^xsd:float .
+
+ins:N_4712453_minPoint3D a geom:Point3D ;
+    geom:x "56.7365"^^xsd:float ;
+    geom:y "0"^^xsd:float ;
+    geom:z "1.25"^^xsd:float .
+
+ins:N_4751388_BB a geom:Box ;
+    ex:hasMaxPoint ins:N_7455775_maxPoint3D ;
+    ex:hasMinPoint ins:N_1535151_minPoint3D ;
+    geom:length "28.37"^^xsd:float ;
+    gom:hasCoordinateSystem ins:BridgeCoordinateSystem .
+
+ins:N_4756304_maxPoint3D a geom:Point3D ;
+    geom:x "27.495"^^xsd:float ;
+    geom:y "0"^^xsd:float ;
+    geom:z "1.05"^^xsd:float .
+
+ins:N_4767937_maxPoint3D a geom:Point3D ;
+    geom:x "18.92"^^xsd:float ;
+    geom:y "0.25"^^xsd:float ;
+    geom:z "1.67"^^xsd:float .
+
+ins:N_4809633_minPoint3D a geom:Point3D ;
+    geom:x "28.37"^^xsd:float .
+
+ins:N_4860742_BB a geom:Box ;
+    ex:hasMaxPoint ins:N_6885132_maxPoint3D ;
+    ex:hasMinPoint ins:N_5191593_minPoint3D ;
+    geom:height "1.05"^^xsd:float ;
+    geom:length "26.62"^^xsd:float ;
+    geom:width "3.0"^^xsd:float ;
+    gom:hasCoordinateSystem ins:BridgeCoordinateSystem .
+
+ins:N_4882677_maxPoint3D a geom:Point3D ;
+    geom:x "27.495"^^xsd:float ;
+    geom:y "12.0"^^xsd:float ;
+    geom:z "1.05"^^xsd:float .
+
+ins:N_4954008_maxPoint3D a geom:Point3D ;
+    geom:x "56.75"^^xsd:float ;
+    geom:y "2.0"^^xsd:float .
+
+ins:N_4960028_minPoint3D a geom:Point3D ;
+    geom:x "0.0"^^xsd:float ;
+    geom:z "1.0750000000000002"^^xsd:float .
+
+ins:N_4982009_maxPoint3D a geom:Point3D ;
+    geom:x "65.5"^^xsd:float ;
+    geom:y "0"^^xsd:float ;
+    geom:z "0"^^xsd:float .
+
+ins:N_4983422_BB a geom:Box ;
+    ex:hasMaxPoint ins:N_1138722_maxPoint3D ;
+    ex:hasMinPoint ins:N_3128626_minPoint3D ;
+    geom:height "1.05"^^xsd:float ;
+    geom:length "26.62"^^xsd:float ;
+    gom:hasCoordinateSystem ins:BridgeCoordinateSystem .
+
+ins:N_4995212_BB a geom:Box ;
+    ex:hasMaxPoint ins:N_3963900_maxPoint3D ;
+    ex:hasMinPoint ins:N_7519935_minPoint3D ;
+    geom:length "18.92"^^xsd:float ;
+    geom:width "8.0"^^xsd:float ;
+    gom:hasCoordinateSystem ins:BridgeCoordinateSystem .
+
+ins:N_5026243_BB a geom:Box ;
+    ex:hasMaxPoint ins:N_9884309_maxPoint3D ;
+    ex:hasMinPoint ins:N_6225636_minPoint3D ;
+    geom:height "1.25"^^xsd:float ;
+    geom:length "56.75"^^xsd:float ;
+    geom:width "12.0"^^xsd:float ;
+    gom:hasCoordinateSystem ins:BridgeCoordinateSystem .
+
+ins:N_5055896_BB a geom:Box ;
+    ex:hasMaxPoint ins:N_5935174_maxPoint3D ;
+    ex:hasMinPoint ins:N_9201099_minPoint3D ;
+    geom:height "1.25"^^xsd:float ;
+    geom:length "56.75"^^xsd:float ;
+    geom:width "12.0"^^xsd:float ;
+    gom:hasCoordinateSystem ins:BridgeCoordinateSystem .
+
+ins:N_5077522_maxPoint3D a geom:Point3D ;
+    geom:x "0.0135"^^xsd:float ;
+    geom:y "12.0"^^xsd:float ;
+    geom:z "1.25"^^xsd:float .
+
+ins:N_5121820_maxPoint3D a geom:Point3D ;
+    geom:x "56.75"^^xsd:float ;
+    geom:y "12.0"^^xsd:float ;
+    geom:z "1.25"^^xsd:float .
+
+ins:N_5140823_BB a geom:Box ;
+    ex:hasMaxPoint ins:N_6295677_maxPoint3D ;
+    ex:hasMinPoint ins:N_7889561_minPoint3D ;
+    geom:height "1.05"^^xsd:float ;
+    geom:length "26.62"^^xsd:float ;
+    geom:width "3.0"^^xsd:float ;
+    gom:hasCoordinateSystem ins:BridgeCoordinateSystem .
+
+ins:N_5148422_minPoint3D a geom:Point3D ;
+    geom:x "18.915"^^xsd:float ;
+    geom:y "0"^^xsd:float .
+
+ins:N_5177286_maxPoint3D a geom:Point3D ;
+    geom:x "0.0135"^^xsd:float ;
+    geom:y "12.0"^^xsd:float ;
+    geom:z "1.25"^^xsd:float .
+
+ins:N_5183316_maxPoint3D a geom:Point3D ;
+    geom:x "56.75"^^xsd:float ;
+    geom:y "10.0"^^xsd:float ;
+    geom:z "1.33"^^xsd:float .
+
+ins:N_5184909_BB a geom:Box ;
+    ex:hasMaxPoint ins:N_3077496_maxPoint3D ;
+    ex:hasMinPoint ins:N_3417607_minPoint3D ;
+    geom:height "1.64"^^xsd:float ;
+    geom:length "1.5"^^xsd:float ;
+    geom:width "4.0"^^xsd:float ;
+    gom:hasCoordinateSystem ins:BridgeCoordinateSystem .
+
+ins:N_5191593_minPoint3D a geom:Point3D ;
+    geom:x "29.244999999999997"^^xsd:float ;
+    geom:y "3.0"^^xsd:float ;
+    geom:z "0"^^xsd:float .
+
+ins:N_5202787_minPoint3D a geom:Point3D ;
+    geom:x "56.7365"^^xsd:float ;
+    geom:y "0"^^xsd:float ;
+    geom:z "1.25"^^xsd:float .
+
+ins:N_5231090_maxPoint3D a geom:Point3D ;
+    geom:x "18.92"^^xsd:float ;
+    geom:y "12.0"^^xsd:float ;
+    geom:z "1.25"^^xsd:float .
+
+ins:N_5233889_BB a geom:Box ;
+    ex:hasMaxPoint ins:N_2968590_maxPoint3D ;
+    ex:hasMinPoint ins:N_2791865_minPoint3D ;
+    geom:height "4.93"^^xsd:float ;
+    geom:length "2.0"^^xsd:float ;
+    geom:width "6.0"^^xsd:float ;
+    gom:hasCoordinateSystem ins:BridgeCoordinateSystem .
+
+ins:N_5242738_maxPoint3D a geom:Point3D ;
+    geom:x "56.75"^^xsd:float ;
+    geom:y "2.0"^^xsd:float ;
+    geom:z "1.425"^^xsd:float .
+
+ins:N_5267307_BB a geom:Box ;
+    ex:hasMaxPoint ins:N_9306901_maxPoint3D ;
+    ex:hasMinPoint ins:N_5202787_minPoint3D ;
+    geom:length "0.027"^^xsd:float ;
+    geom:width "12.0"^^xsd:float ;
+    gom:hasCoordinateSystem ins:BridgeCoordinateSystem .
+
+ins:N_5326764_BB a geom:Box ;
+    ex:hasMaxPoint ins:N_9571365_maxPoint3D ;
+    ex:hasMinPoint ins:N_2351393_minPoint3D ;
+    geom:length "0.027"^^xsd:float ;
+    geom:width "4.0"^^xsd:float ;
+    geom:height "0.02"^^xsd:float ;
+    gom:hasCoordinateSystem ins:BridgeCoordinateSystem .
+
+ins:N_5334527_BB a geom:Box ;
+    ex:hasMaxPoint ins:N_9725026_maxPoint3D ;
+    ex:hasMinPoint ins:N_4670073_minPoint3D ;
+    geom:height "1.05"^^xsd:float ;
+    geom:length "26.62"^^xsd:float ;
+    geom:width "3.0"^^xsd:float ;
+    gom:hasCoordinateSystem ins:BridgeCoordinateSystem .
+
+ins:N_5342805_BB a geom:Box ;
+    ex:hasMaxPoint ins:N_6520239_maxPoint3D ;
+    ex:hasMinPoint ins:N_9810618_minPoint3D ;
+    geom:height "1.25"^^xsd:float ;
+    geom:length "56.75"^^xsd:float ;
+    geom:width "12.0"^^xsd:float ;
+    gom:hasCoordinateSystem ins:BridgeCoordinateSystem .
+
+ins:N_5380378_minPoint3D a geom:Point3D ;
+    geom:x "0"^^xsd:float .
+
+ins:N_5391116_maxPoint3D a geom:Point3D ;
+    geom:x "18.92"^^xsd:float .
+
+ins:N_5479407_maxPoint3D a geom:Point3D ;
+    geom:x "18.92"^^xsd:float ;
+    geom:y "10.0"^^xsd:float .
+
+ins:N_5553322_BB a geom:Box ;
+    ex:hasMaxPoint ins:N_5922086_maxPoint3D ;
+    ex:hasMinPoint ins:N_2068731_minPoint3D ;
+    geom:length "0.027"^^xsd:float ;
+    geom:width "4.0"^^xsd:float ;
+    gom:hasCoordinateSystem ins:BridgeCoordinateSystem .
+
+ins:N_5585974_maxPoint3D a geom:Point3D ;
+    geom:x "56.75"^^xsd:float ;
+    geom:y "12.0"^^xsd:float ;
+    geom:z "2.5250000000000004"^^xsd:float .
+
+ins:N_5592485_BB a geom:Box ;
+    ex:hasMaxPoint ins:N_8937948_maxPoint3D ;
+    ex:hasMinPoint ins:N_1855354_minPoint3D ;
+    geom:width "12.0"^^xsd:float ;
+    gom:hasCoordinateSystem ins:BridgeCoordinateSystem .
+
+ins:N_5670897_BB a geom:Box ;
+    ex:hasMaxPoint ins:N_8263008_maxPoint3D ;
+    ex:hasMinPoint ins:N_9836975_minPoint3D ;
+    geom:height "4.93"^^xsd:float ;
+    geom:length "1.5"^^xsd:float ;
+    geom:width "12.0"^^xsd:float ;
+    gom:hasCoordinateSystem ins:BridgeCoordinateSystem .
+
+ins:N_5680428_BB a geom:Box ;
+    ex:hasMaxPoint ins:N_5077522_maxPoint3D ;
+    ex:hasMinPoint ins:N_1495552_minPoint3D ;
+    geom:length "0.027"^^xsd:float ;
+    geom:width "12.0"^^xsd:float ;
+    gom:hasCoordinateSystem ins:BridgeCoordinateSystem .
+
+ins:N_5680820_maxPoint3D a geom:Point3D ;
+    geom:x "18.92"^^xsd:float ;
+    geom:y "4.67"^^xsd:float ;
+    geom:z "1.33"^^xsd:float .
+
+ins:N_5693667_maxPoint3D a geom:Point3D ;
+    geom:x "56.75"^^xsd:float ;
+    geom:y "2.0"^^xsd:float ;
+    geom:z "1.425"^^xsd:float .
+
+ins:N_5711143_minPoint3D a geom:Point3D ;
+    geom:x "56.7365"^^xsd:float ;
+    geom:y "0"^^xsd:float ;
+    geom:z "1.33"^^xsd:float .
+
+ins:N_5746604_maxPoint3D a geom:Point3D ;
+    geom:x "56.7635"^^xsd:float ;
+    geom:y "12.0"^^xsd:float ;
+    geom:z "1.33"^^xsd:float .
+
+ins:N_5751627_BB a geom:Box ;
+    ex:hasMaxPoint ins:N_8938614_maxPoint3D ;
+    ex:hasMinPoint ins:N_8691703_minPoint3D ;
+    geom:height "4.93"^^xsd:float ;
+    geom:length "8.0"^^xsd:float ;
+    geom:width "1.5"^^xsd:float ;
+    gom:hasCoordinateSystem ins:BridgeCoordinateSystem .
+
+ins:N_5760820_BB a geom:Box ;
+    ex:hasMaxPoint ins:N_7718784_maxPoint3D ;
+    ex:hasMinPoint ins:N_8062871_minPoint3D ;
+    geom:height "1.64"^^xsd:float ;
+    geom:length "1.5"^^xsd:float ;
+    geom:width "4.0"^^xsd:float ;
+    gom:hasCoordinateSystem ins:BridgeCoordinateSystem .
+
+ins:N_5768910_maxPoint3D a geom:Point3D ;
+    geom:x "57.5"^^xsd:float ;
+    geom:y "12.0"^^xsd:float ;
+    geom:z "0"^^xsd:float .
+
+ins:N_5788979_minPoint3D a geom:Point3D ;
+    geom:x "0"^^xsd:float ;
+    geom:y "10.0"^^xsd:float ;
+    geom:z "1.0750000000000002"^^xsd:float .
+
+ins:N_5810443_maxPoint3D a geom:Point3D ;
+    geom:x "56.75"^^xsd:float ;
+    geom:y "2.0"^^xsd:float ;
+    geom:z "1.425"^^xsd:float .
+
+ins:N_5823839_minPoint3D a geom:Point3D ;
+    geom:x "-0.75"^^xsd:float ;
+    geom:y "0"^^xsd:float ;
+    geom:z "-4.93"^^xsd:float .
+
+ins:N_5841893_minPoint3D a geom:Point3D ;
+    geom:x "0.0"^^xsd:float ;
+    geom:y "2.0"^^xsd:float .
+
+ins:N_5861046_maxPoint3D a geom:Point3D ;
+    geom:x "56.75"^^xsd:float ;
+    geom:y "0.25"^^xsd:float ;
+    geom:z "2.5250000000000004"^^xsd:float .
+
+ins:N_5868615_maxPoint3D a geom:Point3D ;
+    geom:x "65.5"^^xsd:float ;
+    geom:y "0"^^xsd:float ;
+    geom:z "0"^^xsd:float .
+
+ins:N_5887544_maxPoint3D a geom:Point3D ;
+    geom:x "56.75"^^xsd:float ;
+    geom:y "1.25"^^xsd:float ;
+    geom:z "1.25"^^xsd:float .
+
+ins:N_5922086_maxPoint3D a geom:Point3D ;
+    geom:y "4.0"^^xsd:float .
+
+ins:N_5935059_BB a geom:Box ;
+    ex:hasMaxPoint ins:N_5479407_maxPoint3D ;
+    ex:hasMinPoint ins:N_6457031_minPoint3D ;
+    geom:length "18.92"^^xsd:float ;
+    geom:width "8.0"^^xsd:float ;
+    gom:hasCoordinateSystem ins:BridgeCoordinateSystem .
+
+ins:N_5935174_maxPoint3D a geom:Point3D ;
+    geom:x "56.75"^^xsd:float ;
+    geom:y "12.0"^^xsd:float ;
+    geom:z "1.25"^^xsd:float .
+
+ins:N_5940341_BB a geom:Box ;
+    ex:hasMaxPoint ins:N_9798638_maxPoint3D ;
+    ex:hasMinPoint ins:N_7473132_minPoint3D ;
+    geom:height "1.25"^^xsd:float ;
+    geom:length "56.75"^^xsd:float ;
+    geom:width "12.0"^^xsd:float ;
+    gom:hasCoordinateSystem ins:BridgeCoordinateSystem .
+
+ins:N_5969060_maxPoint3D a geom:Point3D ;
+    geom:x "56.75"^^xsd:float ;
+    geom:y "2.0"^^xsd:float;
+    geom:z "1.425"^^xsd:float .
+
+ins:N_6019575_BB a geom:Box ;
+    ex:hasMaxPoint ins:N_7538340_maxPoint3D ;
+    ex:hasMinPoint ins:N_1993133_minPoint3D ;
+    geom:height "4.93"^^xsd:float ;
+    geom:length "1.5"^^xsd:float ;
+    geom:width "12.0"^^xsd:float ;
+    gom:hasCoordinateSystem ins:BridgeCoordinateSystem .
+
+ins:N_6047280_BB a geom:Box ;
+    ex:hasMaxPoint ins:N_8851478_maxPoint3D ;
+    ex:hasMinPoint ins:N_5788979_minPoint3D ;
+    geom:height "0.35"^^xsd:float ;
+    geom:length "56.75"^^xsd:float ;
+    geom:width "2.0"^^xsd:float ;
+    gom:hasCoordinateSystem ins:BridgeCoordinateSystem .
+
+ins:N_6054553_BB a geom:Box ;
+    ex:hasMaxPoint ins:N_6694050_maxPoint3D ;
+    ex:hasMinPoint ins:N_8682654_minPoint3D ;
+    geom:length "55.99"^^xsd:float ;
+    geom:width "0.5"^^xsd:float ;
+    gom:hasCoordinateSystem ins:BridgeCoordinateSystem .
+
+ins:N_6063484_BB a geom:Box ;
+    ex:hasMaxPoint ins:N_7815415_maxPoint3D ;
+    ex:hasMinPoint ins:N_2076920_minPoint3D ;
+    geom:height "1.25"^^xsd:float ;
+    geom:length "56.75"^^xsd:float ;
+    geom:width "12.0"^^xsd:float ;
+    gom:hasCoordinateSystem ins:BridgeCoordinateSystem .
+
+ins:N_6078154_BB a geom:Box ;
+    ex:hasMaxPoint ins:N_5693667_maxPoint3D ;
+    ex:hasMinPoint ins:N_4642265_minPoint3D ;
+    geom:height "0.35"^^xsd:float ;
+    geom:length "56.75"^^xsd:float ;
+    geom:width "2.0"^^xsd:float ;
+    gom:hasCoordinateSystem ins:BridgeCoordinateSystem .
+
+ins:N_6200818_BB a geom:Box ;
+    ex:hasMaxPoint ins:N_3920033_maxPoint3D ;
+    ex:hasMinPoint ins:N_3083699_minPoint3D ;
+    geom:height "0.05"^^xsd:float ;
+    geom:length "0.027"^^xsd:float ;
+    geom:width "12.0"^^xsd:float ;
+    gom:hasCoordinateSystem ins:BridgeCoordinateSystem .
+
+ins:N_6212028_minPoint3D a geom:Point3D ;
+    geom:x "0.0"^^xsd:float ;
+    geom:y "2.0"^^xsd:float ;
+    geom:z "1.33"^^xsd:float .
+
+ins:N_6225636_minPoint3D a geom:Point3D ;
+    geom:x "0"^^xsd:float ;
+    geom:y "0"^^xsd:float ;
+    geom:z "0"^^xsd:float .
+
+ins:N_6261449_maxPoint3D a geom:Point3D ;
+    geom:x "18.92"^^xsd:float ;
+    geom:y "10.0"^^xsd:float .
+
+ins:N_6282067_BB a geom:Box ;
+    ex:hasMaxPoint ins:N_3610090_maxPoint3D ;
+    ex:hasMinPoint ins:N_4609752_minPoint3D ;
+    geom:length "55.99"^^xsd:float ;
+    geom:width "0.5"^^xsd:float ;
+    gom:hasCoordinateSystem ins:BridgeCoordinateSystem .
+
+ins:N_6295677_maxPoint3D a geom:Point3D ;
+    geom:x "27.495"^^xsd:float ;
+    geom:y "3.0"^^xsd:float ;
+    geom:z "1.05"^^xsd:float .
+
+ins:N_6318942_BB a geom:Box ;
+    ex:hasMaxPoint ins:N_7874095_maxPoint3D ;
+    ex:hasMinPoint ins:N_4632993_minPoint3D ;
+    geom:height "4.93"^^xsd:float ;
+    geom:length "1.5"^^xsd:float ;
+    geom:width "12.0"^^xsd:float ;
+    gom:hasCoordinateSystem ins:BridgeCoordinateSystem .
+
+ins:N_6339941_BB a geom:Box ;
+    ex:hasMaxPoint ins:N_8602109_maxPoint3D ;
+    ex:hasMinPoint ins:N_1839272_minPoint3D ;
+    geom:length "18.92"^^xsd:float ;
+    gom:hasCoordinateSystem ins:BridgeCoordinateSystem .
+
+ins:N_6342154_minPoint3D a geom:Point3D ;
+    geom:x "29.244999999999997"^^xsd:float ;
+    geom:y "9.0"^^xsd:float ;
+    geom:z "0"^^xsd:float .
+
+ins:N_6364621_BB a geom:Box ;
+    ex:hasMaxPoint ins:N_1490557_maxPoint3D ;
+    ex:hasMinPoint ins:N_3882928_minPoint3D ;
+    geom:height "1.05"^^xsd:float ;
+    geom:length "26.62"^^xsd:float ;
+    geom:width "3.0"^^xsd:float ;
+    gom:hasCoordinateSystem ins:BridgeCoordinateSystem .
+
+ins:N_6373505_minPoint3D a geom:Point3D ;
+    geom:x "0"^^xsd:float ;
+    geom:y "2.0"^^xsd:float ;
+    geom:z "1.33"^^xsd:float .
+
+ins:N_6382390_minPoint3D a geom:Point3D ;
+    geom:x "0"^^xsd:float ;
+    geom:y "0"^^xsd:float ;
+    geom:z "1.425"^^xsd:float .
+
+ins:N_6457031_minPoint3D a geom:Point3D ;
+    geom:x "0.0"^^xsd:float ;
+    geom:y "2.0"^^xsd:float .
+
+ins:N_6462243_maxPoint3D a geom:Point3D ;
+    geom:x "56.75"^^xsd:float ;
+    geom:y "10.0"^^xsd:float ;
+    geom:z "1.425"^^xsd:float .
+
+ins:N_6478194_BB a geom:Box ;
+    ex:hasMaxPoint ins:N_3716728_maxPoint3D ;
+    ex:hasMinPoint ins:N_9282969_minPoint3D ;
+    geom:height "0.35"^^xsd:float ;
+    geom:length "56.75"^^xsd:float ;
+    geom:width "2.0"^^xsd:float ;
+    gom:hasCoordinateSystem ins:BridgeCoordinateSystem .
+
+ins:N_6480392_minPoint3D a geom:Point3D ;
+    geom:x "-0.75"^^xsd:float ;
+    geom:y "0"^^xsd:float ;
+    geom:z "-4.93"^^xsd:float .
+
+ins:N_6484931_BB a geom:Box ;
+    ex:hasMaxPoint ins:N_2751168_maxPoint3D ;
+    ex:hasMinPoint ins:N_4259835_minPoint3D ;
+    geom:height "0.35"^^xsd:float ;
+    geom:length "56.75"^^xsd:float ;
+    geom:width "2.0"^^xsd:float ;
+    gom:hasCoordinateSystem ins:BridgeCoordinateSystem .
+
+ins:N_6520239_maxPoint3D a geom:Point3D ;
+    geom:x "56.75"^^xsd:float ;
+    geom:y "12.0"^^xsd:float ;
+    geom:z "1.25"^^xsd:float .
+
+ins:N_6524640_minPoint3D a geom:Point3D ;
+    geom:x "56.7365"^^xsd:float ;
+    geom:y "8.0"^^xsd:float;
+    geom:z "1.31"^^xsd:float.
+
+ins:N_6541225_maxPoint3D a geom:Point3D ;
+    geom:x "18.92"^^xsd:float ;
+geom:y "2.00"^^xsd:float ;
+geom:z "1.425"^^xsd:float .
+
+ins:N_6550531_minPoint3D a geom:Point3D ;
+    geom:x "0"^^xsd:float ;
+    geom:y "0"^^xsd:float ;
+    geom:z "1.0750000000000002"^^xsd:float .
+
+ins:N_6590628_BB a geom:Box ;
+    ex:hasMaxPoint ins:N_5391116_maxPoint3D ;
+    ex:hasMinPoint ins:N_1623872_minPoint3D ;
+    geom:length "18.92"^^xsd:float ;
+    geom:width "2.0"^^xsd:float ;
+    gom:hasCoordinateSystem ins:BridgeCoordinateSystem .
+
+ins:N_6643285_maxPoint3D a geom:Point3D ;
+    geom:x "56.75"^^xsd:float ;
+    geom:y "1.25"^^xsd:float ;
+    geom:z "1.25"^^xsd:float .
+
+ins:N_6652076_maxPoint3D a geom:Point3D ;
+    geom:x "55.864999999999995"^^xsd:float ;
+    geom:y "12.0"^^xsd:float ;
+    geom:z "1.05"^^xsd:float .
+
+ins:N_6690277_minPoint3D a geom:Point3D ;
+    geom:x "0"^^xsd:float ;
+    geom:y "0"^^xsd:float ;
+    geom:z "0"^^xsd:float .
+
+ins:N_6690816_minPoint3D a geom:Point3D ;
+    geom:x "0.875"^^xsd:float ;
+    geom:y "9.0"^^xsd:float ;
+    geom:z "0"^^xsd:float .
+
+ins:N_6693816_minPoint3D a geom:Point3D ;
+    geom:x "-0.75"^^xsd:float ;
+    geom:y "0"^^xsd:float ;
+    geom:z "-4.93"^^xsd:float .
+
+ins:N_6694050_maxPoint3D a geom:Point3D ;
+    geom:x "56.75"^^xsd:float ;
+    geom:y "11.25"^^xsd:float ;
+    geom:z "1.25"^^xsd:float .
+
+ins:N_6712382_maxPoint3D a geom:Point3D ;
+    geom:x "0.75"^^xsd:float ;
+    geom:y "12.0"^^xsd:float ;
+    geom:z "0"^^xsd:float .
+
+ins:N_6740301_BB a geom:Box ;
+    ex:hasMaxPoint ins:N_6462243_maxPoint3D ;
+    ex:hasMinPoint ins:N_9490853_minPoint3D ;
+    geom:height "0.07"^^xsd:float ;
+    geom:length "155.68"^^xsd:float ;
+    geom:width "0.1"^^xsd:float ;
+    gom:hasCoordinateSystem ins:BridgeCoordinateSystem .
+
+ins:N_6749177_BB a geom:Box ;
+    ex:hasMaxPoint ins:N_2770930_maxPoint3D ;
+    ex:hasMinPoint ins:N_2691776_minPoint3D ;
+    geom:length "18.92"^^xsd:float ;
+    geom:width "2.0"^^xsd:float ;
+                 geom:height "0.11"^^xsd:float;
+    gom:hasCoordinateSystem ins:BridgeCoordinateSystem .
+
+ins:N_6831033_minPoint3D a geom:Point3D ;
+    geom:x "0.0"^^xsd:float .
+
+ins:N_6836312_BB a geom:Box ;
+    ex:hasMaxPoint ins:N_4507431_maxPoint3D ;
+    ex:hasMinPoint ins:N_9311230_minPoint3D ;
+    geom:height "0.35"^^xsd:float ;
+    geom:length "56.75"^^xsd:float ;
+    geom:width "2.0"^^xsd:float ;
+    gom:hasCoordinateSystem ins:BridgeCoordinateSystem .
+
+ins:N_6861297_maxPoint3D a geom:Point3D ;
+    geom:y "12.0"^^xsd:float ;
+    geom:z "1.0850000000000002"^^xsd:float .
+
+ins:N_6861952_BB a geom:Box ;
+    ex:hasMaxPoint ins:N_1915657_maxPoint3D ;
+    ex:hasMinPoint ins:N_3756355_minPoint3D ;
+    geom:height "0.35"^^xsd:float ;
+    geom:length "56.75"^^xsd:float ;
+    geom:width "2.0"^^xsd:float ;
+    gom:hasCoordinateSystem ins:BridgeCoordinateSystem .
+
+ins:N_6885132_maxPoint3D a geom:Point3D ;
+    geom:x "55.864999999999995"^^xsd:float ;
+    geom:y "6.0"^^xsd:float ;
+    geom:z "1.05"^^xsd:float .
+
+ins:N_6901006_BB a geom:Box ;
+    ex:hasMaxPoint ins:N_7798926_maxPoint3D ;
+    ex:hasMinPoint ins:N_7798671_minPoint3D ;
+    geom:height "0.2"^^xsd:float ;
+    geom:length "56.75"^^xsd:float ;
+    geom:width "12.0"^^xsd:float ;
+    gom:hasCoordinateSystem ins:BridgeCoordinateSystem .
+
+ins:N_6907544_maxPoint3D a geom:Point3D ;
+    geom:x "18.92"^^xsd:float ;
+    geom:y "0.25"^^xsd:float ;
+    geom:z "1.67"^^xsd:float .
+
+ins:N_6920012_minPoint3D a geom:Point3D ;
+    geom:x "37.83"^^xsd:float ;
+    geom:y "0"^^xsd:float;
+    geom:z "1.315"^^xsd:float.
+
+ins:N_6925170_BB a geom:Box ;
+    ex:hasMaxPoint ins:N_3168990_maxPoint3D ;
+    ex:hasMinPoint ins:N_6550531_minPoint3D ;
+    geom:height "0.35"^^xsd:float ;
+    geom:length "56.75"^^xsd:float ;
+    geom:width "2.0"^^xsd:float ;
+    gom:hasCoordinateSystem ins:BridgeCoordinateSystem .
+
+ins:N_6962687_maxPoint3D a geom:Point3D ;
+    geom:x "56.75"^^xsd:float ;
+    geom:y "12.0"^^xsd:float ;
+    geom:z "1.425"^^xsd:float .
+
+ins:N_6967030_minPoint3D a geom:Point3D ;
+    geom:x "0"^^xsd:float ;
+    geom:y "10.0"^^xsd:float .
+
+ins:N_7021968_BB a geom:Box ;
+    ex:hasMaxPoint ins:N_3579755_maxPoint3D ;
+    ex:hasMinPoint ins:N_8456507_minPoint3D ;
+    geom:height "1.05"^^xsd:float ;
+    geom:length "26.62"^^xsd:float ;
+    gom:hasCoordinateSystem ins:BridgeCoordinateSystem .
+
+ins:N_7025120_maxPoint3D a geom:Point3D ;
+    geom:x "56.75"^^xsd:float ;
+    geom:y "10.0"^^xsd:float ;
+    geom:z "1.33"^^xsd:float .
+
+ins:N_7033445_minPoint3D a geom:Point3D ;
+    geom:x "0.0"^^xsd:float ;
+    geom:y "0.0"^^xsd:float ;
+    geom:z "-4.93"^^xsd:float .
+
+ins:N_7052929_BB a geom:Box ;
+    ex:hasMaxPoint ins:N_1564692_maxPoint3D ;
+    ex:hasMinPoint ins:N_4960028_minPoint3D ;
+    geom:height "0.35"^^xsd:float ;
+    geom:length "18.92"^^xsd:float ;
+    gom:hasCoordinateSystem ins:BridgeCoordinateSystem .
+
+ins:N_7060411_BB a geom:Box ;
+    ex:hasMaxPoint ins:N_2701490_maxPoint3D ;
+    ex:hasMinPoint ins:N_9537138_minPoint3D ;
+    geom:height "4.93"^^xsd:float ;
+    geom:length "2.0"^^xsd:float ;
+    geom:width "6.0"^^xsd:float ;
+    gom:hasCoordinateSystem ins:BridgeCoordinateSystem .
+
+ins:N_7075129_minPoint3D a geom:Point3D ;
+    geom:x "0"^^xsd:float ;
+    geom:y "0"^^xsd:float ;
+    geom:z "0"^^xsd:float .
+
+ins:N_7091139_BB a geom:Box ;
+    ex:hasMaxPoint ins:N_5242738_maxPoint3D ;
+    ex:hasMinPoint ins:N_9162534_minPoint3D ;
+    geom:height "0.35"^^xsd:float ;
+    geom:length "18.92"^^xsd:float ;
+    geom:width "2.0"^^xsd:float ;
+    gom:hasCoordinateSystem ins:BridgeCoordinateSystem .
+
+ins:N_7093999_BB a geom:Box ;
+    ex:hasMaxPoint ins:N_7186075_maxPoint3D ;
+    ex:hasMinPoint ins:N_8734430_minPoint3D ;
+    geom:length "0.027"^^xsd:float ;
+    geom:width "12.0"^^xsd:float ;
+    gom:hasCoordinateSystem ins:BridgeCoordinateSystem .
+
+ins:N_7136181_minPoint3D a geom:Point3D ;
+    geom:x "0"^^xsd:float ;
+ geom:y "0"^^xsd:float ;
+ geom:z "1.315"^^xsd:float .
+
+ins:N_7176569_BB a geom:Box ;
+    ex:hasMaxPoint ins:N_7834802_maxPoint3D ;
+    ex:hasMinPoint ins:N_6690277_minPoint3D ;
+    geom:height "1.25"^^xsd:float ;
+    geom:length "56.75"^^xsd:float ;
+    geom:width "12.0"^^xsd:float ;
+    gom:hasCoordinateSystem ins:BridgeCoordinateSystem .
+
+ins:N_7186075_maxPoint3D a geom:Point3D ;
+    geom:x "0.0135"^^xsd:float ;
+    geom:y "12.0"^^xsd:float ;
+    geom:z "1.25"^^xsd:float .
+
+ins:N_7213198_maxPoint3D a geom:Point3D ;
+    geom:x "56.75"^^xsd:float ;
+    geom:y "2.0"^^xsd:float ;
+    geom:z "1.425"^^xsd:float .
+
+ins:N_7251303_BB a geom:Box ;
+    ex:hasMaxPoint ins:N_6712382_maxPoint3D ;
+    ex:hasMinPoint ins:N_6693816_minPoint3D ;
+    geom:height "4.93"^^xsd:float ;
+    geom:length "1.5"^^xsd:float ;
+    geom:width "12.0"^^xsd:float ;
+    gom:hasCoordinateSystem ins:BridgeCoordinateSystem .
+
+ins:N_7300844_BB a geom:Box ;
+    ex:hasMaxPoint ins:N_3340943_maxPoint3D ;
+    ex:hasMinPoint ins:N_8180169_minPoint3D ;
+    geom:height "1.25"^^xsd:float ;
+    geom:length "56.75"^^xsd:float ;
+    geom:width "12.0"^^xsd:float ;
+    gom:hasCoordinateSystem ins:BridgeCoordinateSystem .
+
+ins:N_7329121_minPoint3D a geom:Point3D ;
+    geom:x "56.7365"^^xsd:float ;
+    geom:y "0"^^xsd:float ;
+    geom:z "1.25"^^xsd:float .
+
+ins:N_7382108_minPoint3D a geom:Point3D ;
+    geom:x "0"^^xsd:float ;
+    geom:y "10.0"^^xsd:float ;
+    geom:z "1.0750000000000002"^^xsd:float .
+
+ins:N_7382431_maxPoint3D a geom:Point3D ;
+    geom:x "56.7635"^^xsd:float ;
+    geom:y "12.0"^^xsd:float;
+    geom:z "1.33"^^xsd:float.
+
+ins:N_7407456_maxPoint3D a geom:Point3D ;
+    geom:x "29.37"^^xsd:float ;
+    geom:y "12.0"^^xsd:float ;
+    geom:z "1.05"^^xsd:float .
+
+ins:N_7414379_BB a geom:Box ;
+    ex:hasMaxPoint ins:N_2267182_maxPoint3D ;
+    ex:hasMinPoint ins:N_3393698_minPoint3D ;
+    geom:height "0.35"^^xsd:float ;
+    geom:length "56.75"^^xsd:float ;
+    geom:width "2.0"^^xsd:float ;
+    gom:hasCoordinateSystem ins:BridgeCoordinateSystem .
+
+ins:N_7455775_maxPoint3D a geom:Point3D ;
+    geom:x "28.37"^^xsd:float .
+
+ins:N_7462006_BB a geom:Box ;
+    ex:hasMaxPoint ins:N_5680820_maxPoint3D ;
+    ex:hasMinPoint ins:N_6212028_minPoint3D ;
+    geom:length "18.92"^^xsd:float ;
+    geom:width "2.67"^^xsd:float ;
+    gom:hasCoordinateSystem ins:BridgeCoordinateSystem .
+
+ins:N_7473132_minPoint3D a geom:Point3D ;
+    geom:x "0"^^xsd:float ;
+    geom:y "0"^^xsd:float ;
+    geom:z "0"^^xsd:float .
+
+ins:N_7501685_BB a geom:Box ;
+    ex:hasMaxPoint ins:N_4519209_maxPoint3D ;
+    ex:hasMinPoint ins:N_6967030_minPoint3D ;
+    geom:length "56.75"^^xsd:float ;
+    geom:width "2.0"^^xsd:float ;
+    gom:hasCoordinateSystem ins:BridgeCoordinateSystem .
+
+ins:N_7519935_minPoint3D a geom:Point3D ;
+    geom:x "37.83"^^xsd:float .
+
+ins:N_7521986_BB a geom:Box ;
+    ex:hasMaxPoint ins:N_7213198_maxPoint3D ;
+    ex:hasMinPoint ins:N_3053969_minPoint3D ;
+    geom:height "0.35"^^xsd:float ;
+    geom:length "56.75"^^xsd:float ;
+    geom:width "2.0"^^xsd:float ;
+    gom:hasCoordinateSystem ins:BridgeCoordinateSystem .
+
+ins:N_7525984_BB a geom:Box ;
+    ex:hasMaxPoint ins:N_8778684_maxPoint3D ;
+    ex:hasMinPoint ins:N_3163604_minPoint3D ;
+    geom:length "56.75"^^xsd:float ;
+    geom:width "2.0"^^xsd:float ;
+    gom:hasCoordinateSystem ins:BridgeCoordinateSystem .
+
+ins:N_7538340_maxPoint3D a geom:Point3D ;
+    geom:x "57.5"^^xsd:float ;
+    geom:y "12.0"^^xsd:float ;
+    geom:z "0"^^xsd:float .
+
+ins:N_7577458_maxPoint3D a geom:Point3D ;
+    geom:x "18.92"^^xsd:float .
+
+ins:N_7580275_BB a geom:Box ;
+    ex:hasMaxPoint ins:N_9031166_maxPoint3D ;
+    ex:hasMinPoint ins:N_7382108_minPoint3D ;
+    geom:height "0.35"^^xsd:float ;
+    geom:length "56.75"^^xsd:float ;
+    geom:width "2.0"^^xsd:float ;
+    gom:hasCoordinateSystem ins:BridgeCoordinateSystem .
+
+ins:N_7611965_BB a geom:Box ;
+    ex:hasMaxPoint ins:N_7875871_maxPoint3D ;
+    ex:hasMinPoint ins:N_7075129_minPoint3D ;
+    geom:height "1.25"^^xsd:float ;
+    geom:length "56.75"^^xsd:float ;
+    geom:width "12.0"^^xsd:float ;
+    gom:hasCoordinateSystem ins:BridgeCoordinateSystem .
+
+ins:N_7639055_BB a geom:Box ;
+    ex:hasMaxPoint ins:N_9651662_maxPoint3D ;
+    ex:hasMinPoint ins:N_9316488_minPoint3D ;
+    geom:length "56.75"^^xsd:float ;
+    geom:width "8.0"^^xsd:float ;
+    gom:hasCoordinateSystem ins:BridgeCoordinateSystem .
+
+ins:N_7661468_minPoint3D a geom:Point3D ;
+    geom:x "-0.0135"^^xsd:float ;
+    geom:y "0"^^xsd:float ;
+    geom:z "1.25"^^xsd:float .
+
+ins:N_7663706_BB a geom:Box ;
+    ex:hasMaxPoint ins:N_9157473_maxPoint3D ;
+    ex:hasMinPoint ins:N_5823839_minPoint3D ;
+    geom:height "4.93"^^xsd:float ;
+    geom:length "1.5"^^xsd:float ;
+    geom:width "12.0"^^xsd:float ;
+    gom:hasCoordinateSystem ins:BridgeCoordinateSystem .
+
+ins:N_7718784_maxPoint3D a geom:Point3D ;
+    geom:x "0.75"^^xsd:float ;
+    geom:y "12.0"^^xsd:float ;
+    geom:z "-3.29"^^xsd:float .
+
+ins:N_7723707_minPoint3D a geom:Point3D ;
+    geom:x "37.83"^^xsd:float .
+
+ins:N_7769137_BB a geom:Box ;
+    ex:hasMaxPoint ins:N_4982009_maxPoint3D ;
+    ex:hasMinPoint ins:N_3823752_minPoint3D ;
+    geom:height "4.93"^^xsd:float ;
+    geom:length "8.0"^^xsd:float ;
+    gom:hasCoordinateSystem ins:BridgeCoordinateSystem .
+
+ins:N_7790083_BB a geom:Box ;
+    ex:hasMaxPoint ins:N_2768112_maxPoint3D ;
+    ex:hasMinPoint ins:N_1759569_minPoint3D ;
+    geom:height "1.64"^^xsd:float ;
+    geom:length "1.5"^^xsd:float ;
+    geom:width "4.0"^^xsd:float ;
+    gom:hasCoordinateSystem ins:BridgeCoordinateSystem .
+
+ins:N_7798671_minPoint3D a geom:Point3D ;
+    geom:x "0"^^xsd:float ;
+    geom:y "0"^^xsd:float ;
+    geom:z "1.05"^^xsd:float .
+
+ins:N_7798926_maxPoint3D a geom:Point3D ;
+    geom:x "56.75"^^xsd:float ;
+    geom:y "12.0"^^xsd:float ;
+    geom:z "1.25"^^xsd:float .
+
+ins:N_7815415_maxPoint3D a geom:Point3D ;
+    geom:x "56.75"^^xsd:float ;
+    geom:y "12.0"^^xsd:float ;
+    geom:z "1.25"^^xsd:float .
+
+ins:N_7834802_maxPoint3D a geom:Point3D ;
+    geom:x "56.75"^^xsd:float ;
+    geom:y "12.0"^^xsd:float ;
+    geom:z "1.25"^^xsd:float .
+
+ins:N_7851141_minPoint3D a geom:Point3D ;
+    geom:x "0.875"^^xsd:float ;
+    geom:y "0"^^xsd:float ;
+    geom:z "0"^^xsd:float .
+
+ins:N_7868344_minPoint3D a geom:Point3D ;
+    geom:x "-0.0135"^^xsd:float ;
+    geom:y "8.0"^^xsd:float .
+
+ins:N_7874095_maxPoint3D a geom:Point3D ;
+    geom:x "57.5"^^xsd:float ;
+    geom:y "12.0"^^xsd:float ;
+    geom:z "0"^^xsd:float .
+
+ins:N_7875871_maxPoint3D a geom:Point3D ;
+    geom:x "56.75"^^xsd:float ;
+    geom:y "12.0"^^xsd:float ;
+    geom:z "1.25"^^xsd:float .
+
+ins:N_7889561_minPoint3D a geom:Point3D ;
+    geom:x "0.875"^^xsd:float ;
+    geom:y "0"^^xsd:float ;
+    geom:z "0"^^xsd:float .
+
+ins:N_7903087_minPoint3D a geom:Point3D ;
+    geom:x "56.0"^^xsd:float ;
+    geom:y "0"^^xsd:float ;
+    geom:z "-4.93"^^xsd:float .
+
+ins:N_7912505_BB a geom:Box ;
+    ex:hasMaxPoint ins:N_4505165_maxPoint3D ;
+    ex:hasMinPoint ins:N_7851141_minPoint3D ;
+    geom:height "1.05"^^xsd:float ;
+    geom:length "26.62"^^xsd:float ;
+    gom:hasCoordinateSystem ins:BridgeCoordinateSystem .
+
+ins:N_7940664_minPoint3D a geom:Point3D ;
+    geom:x "18.915"^^xsd:float ;
+    geom:y "0"^^xsd:float ;
+    geom:z "2.1550000000000002"^^xsd:float .
+
+ins:N_7984590_maxPoint3D a geom:Point3D ;
+    geom:x "56.75"^^xsd:float ;
+    geom:y "7.335"^^xsd:float ;
+    geom:z "1.33"^^xsd:float .
+
+ins:N_8048485_maxPoint3D a geom:Point3D ;
+    geom:x "56.75"^^xsd:float .
+
+ins:N_8054500_maxPoint3D a geom:Point3D ;
+    geom:x "56.75"^^xsd:float ;
+    geom:y "12.0"^^xsd:float ;
+     geom:z "1.425"^^xsd:float .
+
+ins:N_8062871_minPoint3D a geom:Point3D ;
+    geom:x "-0.75"^^xsd:float ;
+    geom:y "8.0"^^xsd:float ;
+    geom:z "-4.93"^^xsd:float .
+
+ins:N_8090978_BB a geom:Box ;
+    ex:hasMaxPoint ins:N_5231090_maxPoint3D ;
+    ex:hasMinPoint ins:N_9918591_minPoint3D ;
+    geom:height "0.2"^^xsd:float ;
+    geom:length "18.92"^^xsd:float ;
+    geom:width "12.0"^^xsd:float ;
+    gom:hasCoordinateSystem ins:BridgeCoordinateSystem .
+
+ins:N_8116683_maxPoint3D a geom:Point3D ;
+    geom:x "56.75"^^xsd:float ;
+    geom:y "12.0"^^xsd:float ;
+    geom:z "1.425"^^xsd:float .
+
+ins:N_8133711_BB a geom:Box ;
+    ex:hasMaxPoint ins:N_2743680_maxPoint3D ;
+    ex:hasMinPoint ins:N_5711143_minPoint3D ;
+    geom:length "0.027"^^xsd:float ;
+    geom:width "12.0"^^xsd:float ;
+    gom:hasCoordinateSystem ins:BridgeCoordinateSystem .
+
+ins:N_8180169_minPoint3D a geom:Point3D ;
+    geom:x "0"^^xsd:float ;
+    geom:y "0"^^xsd:float ;
+    geom:z "0"^^xsd:float .
+
+ins:N_8191427_maxPoint3D a geom:Point3D ;
+    geom:x "56.75"^^xsd:float ;
+    geom:y "2.0"^^xsd:float ;
+    geom:z "1.425"^^xsd:float .
+
+ins:N_8219598_maxPoint3D a geom:Point3D ;
+    geom:x "56.75"^^xsd:float ;
+    geom:y "12.0"^^xsd:float ;
+    geom:z "1.25"^^xsd:float .
+
+ins:N_8263008_maxPoint3D a geom:Point3D ;
+    geom:x "57.5"^^xsd:float ;
+    geom:y "12.0"^^xsd:float ;
+    geom:z "0"^^xsd:float .
+
+ins:N_8286188_minPoint3D a geom:Point3D ;
+    geom:x "0"^^xsd:float ;
+    geom:y "0.75"^^xsd:float ;
+    geom:z "1.25"^^xsd:float .
+
+ins:N_8342461_BB a geom:Box ;
+    ex:hasMaxPoint ins:N_6541225_maxPoint3D ;
+    ex:hasMinPoint ins:N_7136181_minPoint3D ;
+    geom:length "18.92"^^xsd:float ;
+    geom:width "2.0"^^xsd:float ;
+    gom:hasCoordinateSystem ins:BridgeCoordinateSystem .
+
+ins:N_8369544_BB a geom:Box ;
+    ex:hasMaxPoint ins:N_8375752_maxPoint3D ;
+    ex:hasMinPoint ins:N_9253721_minPoint3D ;
+    geom:length "18.92"^^xsd:float ;
+    geom:width "2.67"^^xsd:float ;
+    gom:hasCoordinateSystem ins:BridgeCoordinateSystem .
+
+ins:N_8375752_maxPoint3D a geom:Point3D ;
+    geom:x "18.92"^^xsd:float ;
+    geom:y "4.67"^^xsd:float ;
+    geom:z "1.33"^^xsd:float .
+
+ins:N_8436337_maxPoint3D a geom:Point3D ;
+    geom:x "56.75"^^xsd:float ;
+    geom:y "12.0"^^xsd:float ;
+    geom:z "2.3500000000000005"^^xsd:float .
+
+ins:N_8456507_minPoint3D a geom:Point3D ;
+    geom:x "0.875"^^xsd:float ;
+    geom:y "3.0"^^xsd:float ;
+    geom:z "0"^^xsd:float .
+
+ins:N_8562228_maxPoint3D a geom:Point3D ;
+    geom:x "56.75"^^xsd:float ;
+    geom:y "12.0"^^xsd:float ;
+    geom:z "1.425"^^xsd:float .
+
+ins:N_8574828_maxPoint3D a geom:Point3D ;
+    geom:x "37.835"^^xsd:float ;
+    geom:y "12.0"^^xsd:float .
+
+ins:N_8577500_maxPoint3D a geom:Point3D ;
+    geom:x "56.75"^^xsd:float ;
+    geom:y "12.0"^^xsd:float .
+
+ins:N_8586129_maxPoint3D a geom:Point3D ;
+    geom:x "56.75"^^xsd:float ;
+    geom:y "2.0"^^xsd:float .
+
+ins:N_8602109_maxPoint3D a geom:Point3D ;
+    geom:x "18.92"^^xsd:float .
+
+ins:N_8659743_BB a geom:Box ;
+    ex:hasMaxPoint ins:N_5183316_maxPoint3D ;
+    ex:hasMinPoint ins:N_6373505_minPoint3D ;
+    geom:length "56.75"^^xsd:float ;
+    geom:width "8.0"^^xsd:float ;
+    gom:hasCoordinateSystem ins:BridgeCoordinateSystem .
+
+ins:N_8682654_minPoint3D a geom:Point3D ;
+    geom:x "0"^^xsd:float ;
+    geom:y "10.75"^^xsd:float ;
+    geom:z "1.25"^^xsd:float .
+
+ins:N_8691703_minPoint3D a geom:Point3D ;
+    geom:x "57.5"^^xsd:float ;
+    geom:y "0"^^xsd:float ;
+    geom:z "-4.93"^^xsd:float .
+
+ins:N_8734430_minPoint3D a geom:Point3D ;
+    geom:x "-0.0135"^^xsd:float ;
+    geom:y "0"^^xsd:float ;
+    geom:z "1.25"^^xsd:float .
+
+ins:N_8754036_maxPoint3D a geom:Point3D ;
+    geom:x "56.7635"^^xsd:float ;
+    geom:y "12.0"^^xsd:float ;
+    geom:z "1.25"^^xsd:float .
+
+ins:N_8760978_maxPoint3D a geom:Point3D ;
+    geom:x "27.495"^^xsd:float ;
+    geom:y "3.0"^^xsd:float ;
+    geom:z "1.05"^^xsd:float .
+
+ins:N_8778684_maxPoint3D a geom:Point3D ;
+    geom:x "56.75"^^xsd:float ;
+    geom:y "2.0"^^xsd:float ;
+    geom:z "1.425"^^xsd:float .
+
+ins:N_8814809_BB a geom:Box ;
+    ex:hasMaxPoint ins:N_4882677_maxPoint3D ;
+    ex:hasMinPoint ins:N_6690816_minPoint3D ;
+    geom:height "1.05"^^xsd:float ;
+    geom:length "26.62"^^xsd:float ;
+    geom:width "3.0"^^xsd:float ;
+    gom:hasCoordinateSystem ins:BridgeCoordinateSystem .
+
+ins:N_8825848_BB a geom:Box ;
+    ex:hasMaxPoint ins:N_4449596_maxPoint3D ;
+    ex:hasMinPoint ins:N_4562841_minPoint3D ;
+    geom:height "0.2"^^xsd:float ;
+    geom:length "18.92"^^xsd:float ;
+    geom:width "12.0"^^xsd:float ;
+    gom:hasCoordinateSystem ins:BridgeCoordinateSystem .
+
+ins:N_8851478_maxPoint3D a geom:Point3D ;
+    geom:x "56.75"^^xsd:float ;
+    geom:y "12.0"^^xsd:float ;
+    geom:z "1.425"^^xsd:float .
+
+ins:N_8895745_minPoint3D a geom:Point3D ;
+    geom:x "56.0"^^xsd:float ;
+    geom:y "0"^^xsd:float ;
+    geom:z "-4.93"^^xsd:float .
+
+ins:N_8919628_BB a geom:Box ;
+    ex:hasMaxPoint ins:N_5585974_maxPoint3D ;
+    ex:hasMinPoint ins:N_2239921_minPoint3D ;
+    geom:height "1.1"^^xsd:float ;
+    geom:length "55.5"^^xsd:float ;
+    geom:width "0.25"^^xsd:float ;
+    gom:hasCoordinateSystem ins:BridgeCoordinateSystem .
+
+ins:N_8929762_BB a geom:Box ;
+    ex:hasMaxPoint ins:N_5868615_maxPoint3D ;
+    ex:hasMinPoint ins:N_3617532_minPoint3D ;
+    geom:height "4.93"^^xsd:float ;
+    geom:length "8.0"^^xsd:float ;
+    gom:hasCoordinateSystem ins:BridgeCoordinateSystem .
+
+ins:N_8937948_maxPoint3D a geom:Point3D ;
+    geom:y "12.0"^^xsd:float .
+
+ins:N_8938614_maxPoint3D a geom:Point3D ;
+    geom:x "65.5"^^xsd:float ;
+    geom:y "1.5"^^xsd:float ;
+    geom:z "0"^^xsd:float .
+
+ins:N_8980850_maxPoint3D a geom:Point3D ;
+    geom:x "37.835"^^xsd:float ;
+    geom:y "12.0"^^xsd:float .
+
+ins:N_9021299_BB a geom:Box ;
+    ex:hasMaxPoint ins:N_1451607_maxPoint3D ;
+    ex:hasMinPoint ins:N_8895745_minPoint3D ;
+    geom:height "4.93"^^xsd:float ;
+    geom:length "1.5"^^xsd:float ;
+    geom:width "12.0"^^xsd:float ;
+    gom:hasCoordinateSystem ins:BridgeCoordinateSystem .
+
+ins:N_9031166_maxPoint3D a geom:Point3D ;
+    geom:x "56.75"^^xsd:float ;
+    geom:y "12.0"^^xsd:float ;
+    geom:z "1.425"^^xsd:float .
+
+ins:N_9062885_maxPoint3D a geom:Point3D ;
+    geom:x "18.92"^^xsd:float .
+
+ins:N_9121875_BB a geom:Box ;
+    ex:hasMaxPoint ins:N_7577458_maxPoint3D ;
+    ex:hasMinPoint ins:N_5380378_minPoint3D ;
+    geom:length "18.92"^^xsd:float ;
+    geom:width "2.0"^^xsd:float ;
+    gom:hasCoordinateSystem ins:BridgeCoordinateSystem .
+
+ins:N_9136251_maxPoint3D a geom:Point3D ;
+    geom:x "56.75"^^xsd:float ;
+    geom:y "2.0"^^xsd:float .
+
+ins:N_9138354_minPoint3D a geom:Point3D ;
+    geom:x "37.83"^^xsd:float ;
+    geom:y "0"^^xsd:float ;
+    geom:z "1.0750000000000002"^^xsd:float .
+
+ins:N_9144725_BB a geom:Box ;
+    ex:hasMaxPoint ins:N_3013893_maxPoint3D ;
+    ex:hasMinPoint ins:N_1126018_minPoint3D ;
+    geom:length "56.75"^^xsd:float ;
+    geom:width "2.0"^^xsd:float ;
+    gom:hasCoordinateSystem ins:BridgeCoordinateSystem .
+
+ins:N_9157473_maxPoint3D a geom:Point3D ;
+    geom:x "0.75"^^xsd:float ;
+    geom:y "12.0"^^xsd:float ;
+    geom:z "0"^^xsd:float .
+
+ins:N_9162534_minPoint3D a geom:Point3D ;
+    geom:x "37.83"^^xsd:float ;
+    geom:y "0"^^xsd:float ;
+    geom:z "1.0750000000000002"^^xsd:float .
+
+ins:N_9201099_minPoint3D a geom:Point3D ;
+    geom:x "0"^^xsd:float ;
+    geom:y "0"^^xsd:float ;
+    geom:z "0"^^xsd:float .
+
+ins:N_9204066_minPoint3D a geom:Point3D ;
+    geom:x "56.7365"^^xsd:float ;
+    geom:y "0"^^xsd:float ;
+    geom:z "1.28"^^xsd:float .
+
+ins:N_9253721_minPoint3D a geom:Point3D ;
+    geom:x "0.0"^^xsd:float ;
+    geom:y "2.0"^^xsd:float ;
+    geom:z "1.33"^^xsd:float .
+
+ins:N_9282969_minPoint3D a geom:Point3D ;
+    geom:x "0"^^xsd:float ;
+    geom:y "0"^^xsd:float ;
+    geom:z "1.0750000000000002"^^xsd:float .
+
+ins:N_9286632_BB a geom:Box ;
+    ex:hasMaxPoint ins:N_8219598_maxPoint3D ;
+    ex:hasMinPoint ins:N_3008419_minPoint3D ;
+    geom:height "1.25"^^xsd:float ;
+    geom:length "56.75"^^xsd:float ;
+    geom:width "12.0"^^xsd:float ;
+    gom:hasCoordinateSystem ins:BridgeCoordinateSystem .
+
+ins:N_9306901_maxPoint3D a geom:Point3D ;
+    geom:x "56.7635"^^xsd:float ;
+    geom:y "12.0"^^xsd:float ;
+    geom:z "1.25"^^xsd:float .
+
+ins:N_9306955_BB a geom:Box ;
+    ex:hasMaxPoint ins:N_5746604_maxPoint3D ;
+    ex:hasMinPoint ins:N_9204066_minPoint3D ;
+    geom:height "0.05"^^xsd:float ;
+    geom:length "0.027"^^xsd:float ;
+    geom:width "12.0"^^xsd:float ;
+    gom:hasCoordinateSystem ins:BridgeCoordinateSystem .
+
+ins:N_9310101_maxPoint3D a geom:Point3D ;
+    geom:x "27.495"^^xsd:float ;
+    geom:y "6.0"^^xsd:float ;
+    geom:z "1.05"^^xsd:float .
+
+ins:N_9311230_minPoint3D a geom:Point3D ;
+    geom:x "0"^^xsd:float ;
+    geom:y "10.0"^^xsd:float ;
+    geom:z "1.0750000000000002"^^xsd:float .
+
+ins:N_9316488_minPoint3D a geom:Point3D ;
+    geom:x "0"^^xsd:float ;
+    geom:y "2.0"^^xsd:float ;
+    geom:z "1.33"^^xsd:float .
+
+ins:N_9329855_minPoint3D a geom:Point3D ;
+    geom:x "0.875"^^xsd:float ;
+    geom:y "3.0"^^xsd:float ;
+    geom:z "0"^^xsd:float .
+
+ins:N_9423583_BB a geom:Box ;
+    ex:hasMaxPoint ins:N_8436337_maxPoint3D ;
+    ex:hasMinPoint ins:N_7033445_minPoint3D ;
+    geom:height "7.28"^^xsd:float ;
+    geom:length "56.75"^^xsd:float ;
+    geom:width "12.0"^^xsd:float ;
+    gom:hasCoordinateSystem ins:BridgeCoordinateSystem .
+
+ins:N_9425776_minPoint3D a geom:Point3D ;
+    geom:x "0"^^xsd:float ;
+    geom:y "10.0"^^xsd:float ;
+    geom:z "1.0750000000000002"^^xsd:float .
+
+ins:N_9457943_BB a geom:Box ;
+    ex:hasMaxPoint ins:N_9880547_maxPoint3D ;
+    ex:hasMinPoint ins:N_4119247_minPoint3D ;
+    geom:height "0.6"^^xsd:float ;
+    geom:length "55.99"^^xsd:float ;
+    geom:width "0.5"^^xsd:float ;
+    gom:hasCoordinateSystem ins:BridgeCoordinateSystem .
+
+ins:N_9490361_BB a geom:Box ;
+    ex:hasMaxPoint ins:N_1591607_maxPoint3D ;
+    ex:hasMinPoint ins:N_2275527_minPoint3D ;
+    geom:height "1.25"^^xsd:float ;
+    geom:length "56.75"^^xsd:float ;
+    geom:width "12.0"^^xsd:float ;
+    gom:hasCoordinateSystem ins:BridgeCoordinateSystem .
+
+ins:N_9490853_minPoint3D a geom:Point3D ;
+    geom:x "0"^^xsd:float ;
+    geom:y "9.9"^^xsd:float ;
+    geom:z "1.355"^^xsd:float .
+
+ins:N_9522325_BB a geom:Box ;
+    ex:hasMaxPoint ins:N_3133055_maxPoint3D ;
+    ex:hasMinPoint ins:N_9425776_minPoint3D ;
+    geom:height "0.35"^^xsd:float ;
+    geom:length "56.75"^^xsd:float ;
+    geom:width "2.0"^^xsd:float ;
+    gom:hasCoordinateSystem ins:BridgeCoordinateSystem .
+
+ins:N_9537138_minPoint3D a geom:Point3D ;
+    geom:x "27.37"^^xsd:float ;
+    geom:y "6.0"^^xsd:float ;
+    geom:z "-4.930000000000001"^^xsd:float .
+
+ins:N_9541255_maxPoint3D a geom:Point3D ;
+    geom:x "0.75"^^xsd:float ;
+    geom:y "12.0"^^xsd:float ;
+    geom:z "0"^^xsd:float .
+
+ins:N_9549380_maxPoint3D a geom:Point3D ;
+    geom:x "37.835"^^xsd:float ;
+    geom:y "0.25"^^xsd:float ;
+    geom:z "2.5250000000000004"^^xsd:float .
+
+ins:N_9571365_maxPoint3D a geom:Point3D ;
+    geom:x "56.7635"^^xsd:float ;
+    geom:y "4.0"^^xsd:float ;
+    geom:z "1.33"^^xsd:float.
+
+ins:N_9585103_BB a geom:Box ;
+    ex:hasMaxPoint ins:N_8577500_maxPoint3D ;
+    ex:hasMinPoint ins:N_1511022_minPoint3D ;
+    geom:length "56.75"^^xsd:float ;
+    geom:width "2.0"^^xsd:float ;
+    gom:hasCoordinateSystem ins:BridgeCoordinateSystem .
+
+ins:N_9588266_maxPoint3D a geom:Point3D ;
+    geom:x "0.75"^^xsd:float ;
+    geom:y "12.0"^^xsd:float ;
+    geom:z "0"^^xsd:float .
+
+ins:N_9633094_BB a geom:Box ;
+    ex:hasMaxPoint ins:N_8760978_maxPoint3D ;
+    ex:hasMinPoint ins:N_1922999_minPoint3D ;
+    geom:height "1.05"^^xsd:float ;
+    geom:length "26.62"^^xsd:float ;
+    gom:hasCoordinateSystem ins:BridgeCoordinateSystem .
+
+ins:N_9647278_BB a geom:Box ;
+    ex:hasMaxPoint ins:N_6261449_maxPoint3D ;
+    ex:hasMinPoint ins:N_5841893_minPoint3D ;
+    geom:length "18.92"^^xsd:float ;
+    geom:width "8.0"^^xsd:float ;
+    gom:hasCoordinateSystem ins:BridgeCoordinateSystem .
+
+ins:N_9651662_maxPoint3D a geom:Point3D ;
+    geom:x "56.75"^^xsd:float ;
+    geom:y "10.0"^^xsd:float ;
+    geom:z "1.33"^^xsd:float .
+
+ins:N_9658506_minPoint3D a geom:Point3D ;
+    geom:x "0"^^xsd:float ;
+    geom:y "0.75"^^xsd:float ;
+    geom:z "1.25"^^xsd:float .
+
+ins:N_9659490_maxPoint3D a geom:Point3D ;
+    geom:x "56.75"^^xsd:float ;
+    geom:y "12.0"^^xsd:float .
+
+ins:N_9675894_minPoint3D a geom:Point3D ;
+    geom:x "0"^^xsd:float ;
+    geom:y "10.0"^^xsd:float ;
+    geom:z "1.0750000000000002"^^xsd:float .
+
+ins:N_9681511_BB a geom:Box ;
+    ex:hasMaxPoint ins:N_9659490_maxPoint3D ;
+    ex:hasMinPoint ins:N_9701098_minPoint3D ;
+    geom:length "56.75"^^xsd:float ;
+    geom:width "2.0"^^xsd:float ;
+    gom:hasCoordinateSystem ins:BridgeCoordinateSystem .
+
+ins:N_9701098_minPoint3D a geom:Point3D ;
+    geom:x "0"^^xsd:float ;
+    geom:y "10.0"^^xsd:float .
+
+ins:N_9725026_maxPoint3D a geom:Point3D ;
+    geom:x "55.864999999999995"^^xsd:float ;
+    geom:y "3.0"^^xsd:float ;
+    geom:z "1.05"^^xsd:float .
+
+ins:N_9791895_minPoint3D a geom:Point3D ;
+    geom:x "-0.75"^^xsd:float ;
+    geom:y "0"^^xsd:float ;
+    geom:z "-4.93"^^xsd:float .
+
+ins:N_9798638_maxPoint3D a geom:Point3D ;
+    geom:x "56.75"^^xsd:float ;
+    geom:y "12.0"^^xsd:float ;
+    geom:z "1.25"^^xsd:float .
+
+ins:N_9810618_minPoint3D a geom:Point3D ;
+    geom:x "0"^^xsd:float ;
+    geom:y "0"^^xsd:float ;
+    geom:z "0"^^xsd:float .
+
+ins:N_9836975_minPoint3D a geom:Point3D ;
+    geom:x "56.0"^^xsd:float ;
+    geom:y "0"^^xsd:float ;
+    geom:z "-4.93"^^xsd:float .
+
+ins:N_9880547_maxPoint3D a geom:Point3D ;
+    geom:x "56.75"^^xsd:float ;
+    geom:y "1.25"^^xsd:float ;
+    geom:z "2.025"^^xsd:float .
+
+ins:N_9884309_maxPoint3D a geom:Point3D ;
+    geom:x "56.75"^^xsd:float ;
+    geom:y "12.0"^^xsd:float ;
+    geom:z "1.25"^^xsd:float .
+
+ins:N_9918591_minPoint3D a geom:Point3D ;
+    geom:x "0"^^xsd:float ;
+    geom:y "0"^^xsd:float ;
+    geom:z "1.05"^^xsd:float .
+
+ins:N_9919696_BB a geom:Box ;
+    ex:hasMaxPoint ins:N_5768910_maxPoint3D ;
+    ex:hasMinPoint ins:N_3025684_minPoint3D ;
+    geom:height "4.93"^^xsd:float ;
+    geom:length "1.5"^^xsd:float ;
+    geom:width "12.0"^^xsd:float ;
+    gom:hasCoordinateSystem ins:BridgeCoordinateSystem .
+
+ins:N_9964443_minPoint3D a geom:Point3D ;
+    geom:x "0.0"^^xsd:float ;
+    geom:z "1.0750000000000002"^^xsd:float .
+
+ins:N_9973149_minPoint3D a geom:Point3D ;
+    geom:x "0"^^xsd:float ;
+    geom:y "4.665"^^xsd:float ;
+    geom:z "1.33"^^xsd:float .
+
+ins:N_9982554_BB a geom:Box ;
+    ex:hasMaxPoint ins:N_8054500_maxPoint3D ;
+    ex:hasMinPoint ins:N_1710605_minPoint3D ;
+    geom:length "18.92"^^xsd:float ;
+    geom:width "2.0"^^xsd:float ;
+                 geom:height "0.11"^^xsd:float;
+    gom:hasCoordinateSystem ins:BridgeCoordinateSystem .
+
+ins:N_9990294_maxPoint3D a geom:Point3D ;
+    geom:x "0.0135"^^xsd:float ;
+    geom:y "12.0"^^xsd:float .
+
+ins:Pier_Span_1_2_left a brcomp:Pier ;
+    rdfs:label "Pier Span 1 2 left" ;
+    bot:has3DModel ins:N_5233889_BB ;
+    reloc:equalLongitudinal ins:Pier_Span_1 ;
+    reloc:equalVertical ins:Pier_Span_1 ;
+    reloc:meetRight ins:Pier_Span_1_1_left .
+
+ins:Railing_left a brcomp:Railing ;
+    rdfs:label "Railing left" ;
+    rdfs:comment "width is default value" ;
+    owl:sameAs sib:DP19U8H9 ;
+    bot:has3DModel ins:N_8919628_BB ;
+    reloc:containedInLeft ins:Cap_left ;
+    reloc:equalLongitudinal ins:Cap_left ;
+    reloc:meetTop ins:Cap_left .
+
+ins:SafetyKerb_left a brcomp:SafetyKerb ;
+    rdfs:label "SafetyKerb left" ;
+    rdfs:comment "width is default value" ;
+    owl:sameAs sib:DP19U8HD ;
+    bot:has3DModel ins:N_6740301_BB ;
+    reloc:containedInTop ins:Cap_left ;
+    reloc:equalLongitudinal ins:Cap_left ;
+    reloc:meetRight ins:Cap_left .
+
+ins:SafetyKerb_right a brcomp:SafetyKerb ;
+    rdfs:label "SafetyKerb right" ;
+    rdfs:comment "width is default value" ;
+    owl:sameAs sib:DP19U8HD ;
+    bot:has3DModel ins:N_4347482_BB ;
+    reloc:containedInTop ins:Cap_right ;
+    reloc:equalLongitudinal ins:Cap_right ;
+    reloc:meetLeft ins:Cap_right .
+
+ins:DamageArea_NJ0KK4RI a dot:DamageArea ;
+    rdfs:label "DamageArea_NJ0KK4RI" ;
+    ex:damageSize "medium" ;
+    rdfs:comment "Surface is on:verticalAxisRelation" ;
+    bot:has3DModel ins:N_2654083_BB ;
+    dot:hasInspectionDocumentation sib:NJ0KK4RI ;
+    reloc:containedInLeft ins:Joint_rear ;
+    reloc:containedInTop ins:Joint_rear  .
+
+ins:DamageArea_NJ0KK4RI_3 a dot:DamageArea ;
+    rdfs:label "DamageArea_NJ0KK4RI_3" ;
+    ex:damageSize "medium" ;
+    rdfs:comment "Surface is on:verticalAxisRelation" ;
+    bot:has3DModel ins:N_5326764_BB ;
+    dot:hasInspectionDocumentation sib:NJ0KK4RI ;
+    reloc:containedInRight ins:Joint_rear ;
+    reloc:containedInTop ins:Joint_rear .
+
+ins:DamageArea_RE0UU0J5 a dot:DamageArea ;
+    rdfs:label "DamageArea_RE0UU0J5" ;
+    ex:damageSize "medium" ;
+    rdfs:comment "Surface is on:verticalAxisRelation" ;
+    bot:has3DModel ins:N_1326118_BB ;
+    dot:hasInspectionDocumentation sib:RE0UU0J5 ;
+    reloc:containedInLeft ins:Joint_front ;
+    reloc:containedInTop ins:Joint_front .
+
+ins:DamageArea_RE0UU0J5_3 a dot:DamageArea ;
+    rdfs:label "DamageArea_RE0UU0J5_3" ;
+    ex:damageSize "medium" ;
+    rdfs:comment "Surface is on:verticalAxisRelation" ;
+    bot:has3DModel ins:N_5553322_BB ;
+    dot:hasInspectionDocumentation sib:RE0UU0J5 ;
+    reloc:containedInRight ins:Joint_front ;
+    reloc:containedInTop ins:Joint_front ;
+    reloc:meetTop ins:Girder .
+
+ins:GirderMainGirder_Span_1_4_right a brcomp:GirderMainGirder ;
+    rdfs:label "GirderMainGirder Span 1 4 right" ;
+    bot:has3DModel ins:N_8814809_BB ;
+    reloc:containedInBottom ins:Girder ;
+    reloc:containedInLeft ins:Girder ;
+    reloc:containedInLongitudinalCenter ins:Span_1 ;
+    reloc:meetLeft ins:GirderMainGirder_Span_1_3_right .
+
+ins:GirderMainGirder_Span_2_1_right a brcomp:GirderMainGirder ;
+    rdfs:label "GirderMainGirder Span 2 1 right" ;
+    bot:has3DModel ins:N_5334527_BB ;
+    reloc:containedInBottom ins:Girder ;
+    reloc:containedInLongitudinalCenter ins:Span_2 ;
+    reloc:containedInRight ins:Girder ;
+    reloc:meetRight ins:GirderMainGirder_Span_2_2_right .
+
+ins:GirderMainGirder_Span_2_4_right a brcomp:GirderMainGirder ;
+    rdfs:label "GirderMainGirder Span 2 4 right" ;
+    bot:has3DModel ins:N_4192499_BB ;
+    reloc:containedInBottom ins:Girder ;
+    reloc:containedInLeft ins:Girder ;
+    reloc:containedInLongitudinalCenter ins:Span_2 ;
+    reloc:meetLeft ins:GirderMainGirder_Span_2_3_right .
+
+ins:N_5992533_minPoint3D a geom:Point3D ;
+    geom:x "0"^^xsd:float ;
+    geom:y "0"^^xsd:float ;
+    geom:z "0"^^xsd:float .
+
+ins:Pier_Span_1_1_left a brcomp:Pier ;
+    rdfs:label "Pier Span 1 1 left" ;
+    bot:has3DModel ins:N_7060411_BB ;
+    reloc:containedInLeft ins:Pier_Span_1 ;
+    reloc:equalLongitudinal ins:Pier_Span_1 ;
+    reloc:equalVertical ins:Pier_Span_1 .
+
+ins:Site a brot:Site ;
+    rdfs:label "Site" ;
+    dot:hasDamageArea ins:DamageArea_NJ0NV9I8,
+        ins:DamageArea_NY0MISFJ .
+
+ins:AbutmentWingWall_Span_2_right a brcomp:AbutmentWingWall ;
+    rdfs:label "AbutmentWingWall Span 2 right" ;
+    rdfs:comment "length is default value",
+        "width is default value" ;
+    bot:has3DModel ins:N_5751627_BB ;
+    dot:hasDamageArea ins:DamageArea_NJ0NT9H5,
+        ins:DamageArea_NY0LZYSF ;
+    reloc:containedInRight ins:Abutment_Span_2 ;
+    reloc:equalVertical ins:Abutment_Span_2 ;
+    reloc:meetRear ins:Abutment_Span_2 .
+
+ins:GirderMainGirder_Span_1_3_right a brcomp:GirderMainGirder ;
+    rdfs:label "GirderMainGirder Span 1 3 right" ;
+    bot:has3DModel ins:N_6364621_BB ;
+    reloc:containedInBottom ins:Girder ;
+    reloc:containedInLongitudinalCenter ins:Span_1 ;
+    reloc:meetLeft ins:GirderMainGirder_Span_1_2_right ;
+    reloc:meetRight ins:GirderMainGirder_Span_1_4_right .
+
+ins:GirderMainGirder_Span_2_2_right a brcomp:GirderMainGirder ;
+    rdfs:label "GirderMainGirder Span 2 2 right" ;
+    bot:has3DModel ins:N_4860742_BB ;
+    reloc:containedInBottom ins:Girder ;
+    reloc:containedInLongitudinalCenter ins:Span_2 ;
+    reloc:meetLeft ins:GirderMainGirder_Span_2_1_right ;
+    reloc:meetRight ins:GirderMainGirder_Span_2_3_right .
+
+ins:GirderMainGirder_Span_2_3_right a brcomp:GirderMainGirder ;
+    rdfs:label "GirderMainGirder Span 2 3 right" ;
+    bot:has3DModel ins:N_4089897_BB ;
+    reloc:containedInBottom ins:Girder ;
+    reloc:containedInLongitudinalCenter ins:Span_2 ;
+    reloc:meetLeft ins:GirderMainGirder_Span_2_2_right ;
+    reloc:meetRight ins:GirderMainGirder_Span_2_4_right .
+
+ins:Railing_right a brcomp:Railing ;
+    rdfs:label "Railing right" ;
+    rdfs:comment "width is default value" ;
+    owl:sameAs sib:DP19U8HC ;
+    bot:has3DModel ins:N_2122537_BB ;
+    dot:hasDamageArea ins:DamageArea_NJ0OV159,
+        ins:DamageArea_RE0VIMC3,
+        ins:DamageArea_RE0WLOQS ;
+    reloc:containedInRight ins:Cap_right ;
+    reloc:equalLongitudinal ins:Cap_right ;
+    reloc:meetTop ins:Cap_right .
+
+ins:Span_2 a brstr:Span ;
+    rdfs:label "Span 2" ;
+    owl:sameAs sib:DP19UBTV ;
+    bot:has3DModel ins:N_1868980_BB ;
+    brstr:spanWidth "28.37"^^xsd:float ;
+    reloc:meetRear ins:Span_1 .
+
+ins:GirderDeck a brcomp:GirderDeck ;
+    rdfs:label "GirderDeck" ;
+    rdfs:comment "height is default value" ;
+    bot:has3DModel ins:N_6901006_BB ;
+    dot:hasDamageArea ins:DamageArea_1Y0ZMKFB,
+        ins:DamageArea_280M4N2Q ;
+    reloc:containedInTop ins:Girder ;
+    reloc:equalLongitudinal ins:Girder ;
+    reloc:equalTransversal ins:Girder .
+
+ins:GirderMainGirder_Span_1_1_right a brcomp:GirderMainGirder ;
+    rdfs:label "GirderMainGirder Span 1 1 right" ;
+    bot:has3DModel ins:N_5140823_BB ;
+    dot:hasDamageArea ins:DamageArea_NJ0IBHTY,
+        ins:DamageArea_NY0LO2H9,
+        ins:DamageArea_VC0OU4D9 ;
+    reloc:containedInBottom ins:Girder ;
+    reloc:containedInLongitudinalCenter ins:Span_1 ;
+    reloc:containedInRight ins:Girder ;
+    reloc:meetRight ins:GirderMainGirder_Span_1_2_right .
+
+ins:TrafficBarrier_left a brcomp:TrafficBarrier ;
+    rdfs:label "TrafficBarrier left" ;
+    rdfs:comment "width is default value" ;
+    owl:sameAs sib:DP19U8HA ;
+    bot:has3DModel ins:N_2924307_BB ;
+    dot:hasDamageArea ins:DamageArea_NJ0MEETK,
+        ins:DamageArea_RE0VHE1G ;
+    reloc:containedInTransversalCenter ins:Cap_left ;
+    reloc:equalLongitudinal ins:Cap_left ;
+    reloc:meetTop ins:Cap_left .
+
+ins:TrafficBarrier_right a brcomp:TrafficBarrier ;
+    rdfs:label "TrafficBarrier right" ;
+    rdfs:comment "width is default value" ;
+    owl:sameAs sib:DP19U8HB ;
+    bot:has3DModel ins:N_9457943_BB ;
+    dot:hasDamageArea ins:DamageArea_NJ0MEETK_2,
+        ins:DamageArea_RE0VHE1G_2 ;
+    reloc:containedInTransversalCenter ins:Cap_right ;
+    reloc:equalLongitudinal ins:Cap_right ;
+    reloc:meetTop ins:Cap_right .
+
+ins:GirderMainGirder_Span_1_2_right a brcomp:GirderMainGirder ;
+    rdfs:label "GirderMainGirder Span 1 2 right" ;
+    bot:has3DModel ins:N_1703676_BB ;
+    dot:hasDamageArea ins:DamageArea_NY0LOAKC,
+        ins:DamageArea_VC0OVZIT ;
+    reloc:containedInBottom ins:Girder ;
+    reloc:containedInLongitudinalCenter ins:Span_1 ;
+    reloc:meetLeft ins:GirderMainGirder_Span_1_1_right ;
+    reloc:meetRight ins:GirderMainGirder_Span_1_3_right .
+
+ins:Abutment_Span_2 a brcomp:Abutment ;
+    rdfs:label "Abutment_Span_2" ;
+    rdfs:comment "length is default value" ;
+    owl:sameAs sib:N_3690014 ;
+    bot:has3DModel ins:N_9919696_BB ;
+    dot:hasDamageArea ins:DamageArea_NJ0IM4M7,
+        ins:DamageArea_NJ0NRCTF,
+        ins:DamageArea_NY0LWS6G,
+        ins:DamageArea_NY0MG56G,
+        ins:DamageArea_VC0Y8HGI ;
+    reloc:equalTransversal ins:Girder ;
+    reloc:intersectRear ins:Girder ;
+    reloc:meetBottom ins:Girder .
+
+ins:Span_1 a brstr:Span ;
+    rdfs:label "Span 1" ;
+    owl:sameAs sib:DP19UBTU ;
+    bot:has3DModel ins:N_4751388_BB ;
+    brstr:spanWidth "28.37"^^xsd:float .
+
+ins:Joint_front a brot:Joint ;
+    rdfs:label "Joint front" ;
+    rdfs:comment "height is default value" ;
+    owl:sameAs sib:N_2967902 ;
+    bot:has3DModel ins:N_6200818_BB ;
+    dot:hasDamageArea ins:DamageArea_NJ0KK4RI,
+        ins:DamageArea_NJ0KK4RI_3,
+        ins:DamageArea_NJ0OXZBA_2,
+        ins:DamageArea_NJ0OZ4UP_2,
+        ins:DamageArea_RE0UU0J5,
+        ins:DamageArea_RE0UU0J5_3,
+        ins:DamageArea_RE0VABGI ;
+    reloc:containedInTop ins:Coating ;
+    reloc:equalTransversal ins:Girder ;
+    reloc:intersectFront ins:Girder .
+
+ins:Joint_rear a brot:Joint ;
+    rdfs:label "Joint rear" ;
+    rdfs:comment "height is default value" ;
+    owl:sameAs sib:N_4511693 ;
+    bot:has3DModel ins:N_9306955_BB ;
+    dot:hasDamageArea ins:DamageArea_NJ0KK4RI,
+        ins:DamageArea_NJ0KK4RI_3,
+        ins:DamageArea_NJ0OXZBA,
+        ins:DamageArea_NJ0OZ4UP,
+        ins:DamageArea_RE0UU0J5,
+        ins:DamageArea_RE0UU0J5_3,
+        ins:DamageArea_RE0VABGI_2,
+        ins:DamageArea_VC0NZFYZ ;
+    reloc:containedInTop ins:Coating ;
+    reloc:equalTransversal ins:Girder ;
+    reloc:intersectRear ins:Girder .
+
+ins:Pier_Span_1 a brcomp:Pier ;
+    rdfs:label "Pier_Span_1" ;
+    rdfs:comment "length is default value" ;
+    owl:sameAs sib:N_7459986 ;
+    bot:has3DModel ins:N_4407299_BB ;
+    reloc:equalTransversal ins:Girder ;
+    reloc:intersectRear ins:Span_1 ;
+    reloc:meetBottom ins:GirderDeck .
+
+ins:Abutment_Span_0 a brcomp:Abutment ;
+    rdfs:label "Abutment_Span_0" ;
+    rdfs:comment "length is default value" ;
+    owl:sameAs sib:N_7205846 ;
+    bot:has3DModel ins:N_7251303_BB ;
+    dot:hasDamageArea ins:DamageArea_NJ0JTSH5,
+        ins:DamageArea_NJ0N84W1,
+        ins:DamageArea_NJ0NRCTF_2,
+        ins:DamageArea_NY0LXK3T,
+        ins:DamageArea_NY0LZ32M,
+        ins:DamageArea_NY0MG56G_2,
+        ins:DamageArea_VC0YD96V ;
+    reloc:equalTransversal ins:Girder ;
+    reloc:intersectFront ins:Girder ;
+    reloc:meetBottom ins:Girder .
+
+ins:Coating a brot:Coating ;
+    rdfs:label "Coating" ;
+    rdfs:comment "height is default value" ;
+    bot:has3DModel ins:N_1896376_BB ;
+    dot:hasDamageArea ins:DamageArea_280M4N2O,
+        ins:DamageArea_NJ0MQUYL,
+        ins:DamageArea_NJ0MQUYL_3,
+        ins:DamageArea_NJ0PUA7Q,
+        ins:DamageArea_RE0VOHJV,
+        ins:DamageArea_RE0VOHJV_3,
+        ins:DamageArea_RE0VQ7ZA,
+        ins:DamageArea_RE0VWAL2,
+        ins:DamageArea_VC0O4REQ,
+        ins:DamageArea_ZD0IP6KW ;
+    reloc:equalLongitudinal ins:Girder ;
+    reloc:meetLeft ins:Cap_right ;
+    reloc:meetRight ins:Cap_left ;
+    reloc:meetTop ins:Girder .
+
+ins:Bridge a brot:Bridge ;
+    rdfs:label "Bridge" ;
+    owl:sameAs sib:DP18FP98 ;
+    bot:has3DModel ins:N_9423583_BB ;
+    reloc:containedInBottom ins:Abutment_Span_0 ;
+    reloc:containedInLongitudinalCenter ins:Girder ;
+    reloc:containedInTransversalCenter ins:Girder .
+
+ins:Cap_left a brcomp:Cap ;
+    rdfs:label "Cap left" ;
+    rdfs:comment "height is default value" ;
+    owl:sameAs sib:N_3201430 ;
+    bot:has3DModel ins:N_6047280_BB ;
+    dot:hasDamageArea ins:DamageArea_1Y0ZUGRJ,
+        ins:DamageArea_280M4N2M_2,
+        ins:DamageArea_280M4N2R,
+        ins:DamageArea_DP19VYVY_2,
+        ins:DamageArea_NJ0LGWMH_2,
+        ins:DamageArea_NJ0LOAVL_2,
+        ins:DamageArea_NJ0NWW9R_2,
+        ins:DamageArea_NJ0NWW9R_2_3,
+        ins:DamageArea_NY0M9P1L_2,
+        ins:DamageArea_NY0MCCII,
+        ins:DamageArea_NY0MEIYU_2,
+        ins:DamageArea_NY0MEIYU_2_3,
+        ins:DamageArea_RE0VD9YZ_2,
+        ins:DamageArea_VC0K8D74_2,
+        ins:DamageArea_VC0LMXQD_2,
+        ins:DamageArea_ZD0INW82_2 ;
+    reloc:containedInLeft ins:Girder ;
+    reloc:equalLongitudinal ins:Girder ;
+    reloc:intersectTop ins:Girder .
+
+ins:Cap_right a brcomp:Cap ;
+    rdfs:label "Cap right" ;
+    rdfs:comment "height is default value" ;
+    owl:sameAs sib:DP19UHHY ;
+    bot:has3DModel ins:N_6484931_BB ;
+    dot:hasDamageArea ins:DamageArea_280M4N2M,
+        ins:DamageArea_DP19VYVY,
+        ins:DamageArea_NJ0LGWMH,
+        ins:DamageArea_NJ0LOAVL,
+        ins:DamageArea_NJ0NWW9R,
+        ins:DamageArea_NJ0NWW9R_3,
+        ins:DamageArea_NJ0OHUTB,
+        ins:DamageArea_NY0M77CF,
+        ins:DamageArea_NY0M9P1L,
+        ins:DamageArea_NY0MEIYU,
+        ins:DamageArea_NY0MEIYU_3,
+        ins:DamageArea_RE0VD9YZ,
+        ins:DamageArea_RE0VG6C9,
+        ins:DamageArea_VC0K8D74,
+        ins:DamageArea_VC0LMXQD,
+        ins:DamageArea_VC0OBUAG,
+        ins:DamageArea_ZD0INW82 ;
+    reloc:containedInRight ins:Girder ;
+    reloc:equalLongitudinal ins:Girder ;
+    reloc:intersectTop ins:Girder .
+
+ins:Girder a brcomp:Girder ;
+    rdfs:label "Girder" ;
+    owl:sameAs sib:N_6082988 ;
+    bot:has3DModel ins:N_2217675_BB ;
+    dot:hasDamageArea ins:DamageArea_1Y0Z319E,
+        ins:DamageArea_280M4N2N,
+        ins:DamageArea_280M4N2P,
+        ins:DamageArea_NJ0MNT5A,
+        ins:DamageArea_NY0M62B9,
+        ins:DamageArea_RE0VIY4X,
+        ins:DamageArea_RE0W8YJT,
+        ins:DamageArea_RE0WAQC0,
+        ins:DamageArea_VC0KBHR8,
+        ins:DamageArea_ZD0IQYIJ .
+
+ins:BridgeCoordinateSystem a gom:CartesianCoordinateSystem ;
+    ex:hasNLOrientation "von West nach Ost" ;
+    ex:hasOrientation "1,0,0,0,-1,0,0,0,1" ;
+    ex:hasOrigin ins:N_5992533_minPoint3D .
+
