@@ -4,12 +4,12 @@ RDF Graphs of Bridge Managements System data
 - For more information see: https://dc.rwth-aachen.de/en/raumlink-2/
 
 ### For Use Case 2 (UC2) we provide
-  - the RDF Graph converted directly from the BMS (SIB-Bauwerke) data
-  - the spatial RDF Graph, containing the spatial representation and interlinking of bridge components and damage objects, linked to the BMS data graph
+  - the RDF Graph converted directly from the BMS (SIB-Bauwerke) data (BMS_SIB_Graph_UC2.ttl)
+  - the spatial RDF Graph, containing the spatial representation and interlinking of bridge components and damage objects, linked to the BMS data graph (SpatialBridgeGraph_UC2)
 
 
 ### For Use Case 1 (UC1) we provide
-  - the spatial RDF Graph, containing the spatial representation and interlinking of bridge components and damage objects
+  - the spatial RDF Graph, containing the spatial representation and interlinking of bridge components and damage objects (SpatialBridgeGraph_UC1)
   The BMS data of UC1 is confidential.
 
 ### Acknowledgements
